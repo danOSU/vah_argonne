@@ -1,0 +1,55 @@
+Resetting modules to system default
+
+Activating Modules:
+  1) intel-mpi/2017.3-dfphq6k
+
+The following have been reloaded with a version change:
+  1) intel-mkl/2018.4.274-2amycpi => intel-mkl/2017.3.196-v7uuj6z
+
+Start time: Thu May 27 22:29:20 CDT 2021
+Job is running on node: bdw-0001
+Job running as user: uid=20673(ac.liyanage) gid=20001(cels) groups=20001(cels),20003(lcrc),20155(UNEDF_Optimization)
+Job is running in directory: /home/ac.liyanage/vah_run_events
+inputdir = 
+/home/ac.liyanage/vah_run_events/MAP/
+scratch = 
+/lcrc/globalscratch/dan
+job : 
+2113588
+input directory 
+/home/ac.liyanage/vah_run_events/MAP/
+job number
+2113588
+event number
+2
+input directory 
+/home/ac.liyanage/vah_run_events/MAP/
+job number
+2113588
+event number
+3
+input directory 
+/home/ac.liyanage/vah_run_events/MAP/
+job number
+2113588
+event number
+4
+input directory 
+/home/ac.liyanage/vah_run_events/MAP/
+job number
+2113588
+event number
+6
+input directory 
+/home/ac.liyanage/vah_run_events/MAP/
+job number
+2113588
+event number
+1
+input directory 
+/home/ac.liyanage/vah_run_events/MAP/
+job number
+2113588
+event number
+5
+All events have finished. Goodbye!

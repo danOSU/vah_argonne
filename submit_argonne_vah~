@@ -1,0 +1,49 @@
+#!/bin/bash
+#SBATCH -J Pb_Pb_2760_MAP_VAH
+#SBATCH -p bdws
+#SBATCH -N 2
+#SBATCH --ntasks-per-node 5
+#SBATCH -t 01:00:00
+#SBATCH --mail-user=liyanage.5@osu.edu
+#SBATCH --mail-type=all
+#SBATCH -A unedf_optimization
+module reset
+module load singularity
+
+printf "Start time: "; /bin/date
+printf "Job is running on node: "; /bin/hostname
+printf "Job running as user: "; /usr/bin/id
+printf "Job is running in directory: "; pwd
+
+inputdir="/home/ac.liyanage/vah_run_events/$1/" #where the tables for iS3D, smash... are located. design_pts should be a folder inside!
+echo "inputdir = "
+echo $inputdir
+###export TMPDIR="~/run_events/output_simulation"
+#SCRATCH="output_simulation"
+SCRATCH="/lcrc/globalscratch/dan"
+echo "scratch = "
+echo ${SCRATCH}
+job=$SLURM_JOB_ID
+echo "job : "
+echo $job
+
+mkdir $SCRATCH/$job
+n_cores=15
+
+let max_cores=$n_cores-1
+
+#n_events_per_core=10
+
+# create taskfarmer tasks
+#set the number of design points stored in input-config/design_pts
+#num_design_pts=1000
+#set the number of events to run per design point
+for j in $(seq 0 $max_cores)
+do
+ singularity exec -B $SCRATCH:/scr ~/jetscape_vah sh event.sh $j $inputdir $job &
+done
+# wait until all processes are done
+wait
+echo "All events have finished. Goodbye!"
+
+
