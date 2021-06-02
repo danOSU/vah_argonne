@@ -26,7 +26,7 @@ parameters are set to Maximum a Posteriori(MAP) values found in this *[paper](ht
 
 With each submission a _history.txt_ file is updated with the Job_ID and with the comment made at the submision. 
 To run the simulation with a different set of input parameters you need to generate and put the relevent input files inside a new folder in _MAP_. 
-Please take a look at the _MAP_ input files and the python script that generate these input files by going to _design/MAP_ to understand what input files are needed 
+Please take a look at the _MAP_ input files and the python script that generate these input files by going to _MAP_ to understand what input files are needed 
 to run an event.
 If you put new set of input files in a directory _new_design_0_ events with this input files can be run by following command.
 >sh submit.sh "New set of model parameter values" new_design_0
