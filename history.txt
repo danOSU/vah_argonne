@@ -1,16 +1,2 @@
-MAP 15 events 2 nodes 5 cores each
-Submitted batch job 2113540
-johns method 15 events 2 nodes 5 cores each 1hr
-Submitted batch job 2113582
-johns method 15 events 2 nodes 5 cores each 1hr
-Submitted batch job 2113583
-johns method 6 events 1 nodes 5 cores each 1hr
-Submitted batch job 2113584
-johns method 6 events 1 nodes 5 cores each 1hr
-Submitted batch job 2113585
-johns
-Submitted batch job 2113588
-johns method 15 events 2 nodes 5 cores each 1hr
-Submitted batch job 2113589
-johns method 5000 events 20 nodes 36 cores each 4hr bdwall
-Submitted batch job 2113590
+sims 5000 events
+Submitted batch job 2114356

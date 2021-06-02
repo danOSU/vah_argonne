@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+export SCRATCH="/lcrc/globalscratch/dan"
 for f in  $SCRATCH/logs/$1/[0-9]*.log
 do
 	if grep -q "crash" $f;
