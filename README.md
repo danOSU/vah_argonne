@@ -9,7 +9,7 @@ Follow these steps to get the singularity image
 >module load singularity
 2. Get the container image and make a sandbox folder with write privileges in the home directory
 >cd ~/ \
->singularity build --sandbox jetscape docker://dananjaya92/jetscape-bulk:v3 
+>singularity build --sandbox jetscape_vah docker://dananjaya92/jetscape-bulk:v3 
 
 
 Now you have a folder named _jetscape_ which has the container files. Changes you make to this folder will apear in any spawned jetscape containers.
