@@ -14,3 +14,5 @@ johns method 15 events 2 nodes 5 cores each 1hr
 Submitted batch job 2113589
 johns method 5000 events 20 nodes 36 cores each 4hr bdwall
 Submitted batch job 2113590
+5000 events 20 nodes 36 each cores smash box instead of smash particles
+Submitted batch job 2113883

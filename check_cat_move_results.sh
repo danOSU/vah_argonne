@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+export SCRATCH="/lcrc/globalscratch/dan"
 for f in  $SCRATCH/logs/$1/[0-9]*.log
 do
 	if grep -q "crash" $f;
@@ -17,9 +18,9 @@ do
 		echo "catting $event.dat"
     		rm -rf $SCRATCH/results/$1/results.dat
     		cat $SCRATCH/results/$1/$event.dat >> results.dat
-	else
-		echo "something went teribely wrong : $event"
-		echo "$f" >> $2/$1.unknown.txt
+#	else
+#		echo "something went teribely wrong : $event"
+#		echo "$f" >> $2/$1.unknown.txt
 	fi
 	cat $f >> log
 done

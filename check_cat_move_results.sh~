@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+export SCRATCH="/lcrc/globalscratch/dan"
 for f in  $SCRATCH/logs/$1/[0-9]*.log
 do
 	if grep -q "crash" $f;
@@ -26,4 +27,4 @@ done
 
 mv results.dat $2/$1.results.dat
 mv log $2/$1.log
-echo "done catting and moving the results to design folder"
+echo "done catting and moving the results to $2 folder"

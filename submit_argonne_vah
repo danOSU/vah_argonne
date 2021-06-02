@@ -1,13 +1,14 @@
 #!/bin/bash
 #SBATCH -J Pb_Pb_2760_MAP_VAH
-#SBATCH -p bdws
-#SBATCH -N 2
-#SBATCH --ntasks-per-node 5
-#SBATCH -t 01:00:00
+#SBATCH -p bdwall
+#SBATCH -N 20
+#SBATCH --ntasks-per-node 36
+#SBATCH -t 04:00:00
 #SBATCH --mail-user=liyanage.5@osu.edu
 #SBATCH --mail-type=all
 #SBATCH -A unedf_optimization
 module reset
+module load parallel
 module load singularity
 
 printf "Start time: "; /bin/date
@@ -28,22 +29,15 @@ echo "job : "
 echo $job
 
 mkdir $SCRATCH/$job
-n_cores=15
+#n_cores=15
 
-let max_cores=$n_cores-1
+#let max_cores=$n_cores-1
 
 #n_events_per_core=10
+my_parallel="parallel --delay .8 -j $SLURM_NTASKS"
+my_srun="srun --export=all --exclusive -n1 --cpus-per-task=1 --cpu-bind=cores"
+$my_parallel "$my_srun singularity exec -B $SCRATCH:/scr ~/jetscape_vah sh event.sh $inputdir $job " ::: {1..5000}
 
-# create taskfarmer tasks
-#set the number of design points stored in input-config/design_pts
-#num_design_pts=1000
-#set the number of events to run per design point
-for j in $(seq 0 $max_cores)
-do
- singularity exec -B $SCRATCH:/scr ~/jetscape_vah sh event.sh $inputdir $job $j &
-done
-# wait until all processes are done
-wait
 echo "All events have finished. Goodbye!"
 
 
