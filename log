@@ -1,0 +1,2184 @@
+[INFO@382] started at 2021-05-28 19:54:35.763830
+[INFO@382] arguments: Namespace(logfile='/scr/logs/2113883/1000.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1000.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@383] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@445] working directory: /tmp/jetscape-5lv6esey
+[WARNING@447] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@447] starting jetscape event 0
+[INFO@447] TRENTO_VAH started at 2021-05-28 19:54:35.829247 
+[INFO@447] running command: ./TRENTO_VAH
+[INFO@180516] TRENTO_VAH finished in 0:03:00.068769 
+[INFO@180550] Max radius of freezeout surface : 4.180120
+[INFO@180550] idf  = 0
+[INFO@180561] Run iS3D and smash
+[INFO@180561] SAMPLER_AFTERBURNER started at 2021-05-28 19:57:35.942955 
+[INFO@180561] running command: ./SAMPLER_AFTERBURNER
+[INFO@309781] SAMPLER_AFTERBURNER finished in 0:02:09.220359 
+[INFO@309812] 27068 particles in 1000 oversamples
+[INFO@309881] All Oversampling and Afterburners finished in 0:02:09.265298 
+[INFO@309881] Fraction of time spent in trento, fs, hydro       : 0.582117 
+[INFO@309882] Fraction of time spent in sampling, afterburning  : 0.417883 
+[INFO@309882] computing observables for delta_f = 1
+[INFO@309883] charged and abs_eta < 0.5 : 3158.0
+[INFO@309906] Reading hadron list and computing observables finished in 0:00:00.024194 
+[INFO@309907] event 0 completed successfully
+[INFO@309911] finished at 2021-05-28 19:59:45.293502, 0:05:09.529672 elapsed
+[INFO@375] started at 2021-05-28 19:54:31.142336
+[INFO@376] arguments: Namespace(logfile='/scr/logs/2113883/1001.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1001.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@376] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@438] working directory: /tmp/jetscape-z_hcwiyu
+[WARNING@440] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@440] starting jetscape event 0
+[INFO@440] TRENTO_VAH started at 2021-05-28 19:54:31.207191 
+[INFO@440] running command: ./TRENTO_VAH
+[INFO@491940] TRENTO_VAH finished in 0:08:11.499363 
+[INFO@492111] Max radius of freezeout surface : 7.976100
+[INFO@492111] idf  = 0
+[INFO@492123] Run iS3D and smash
+[INFO@492123] SAMPLER_AFTERBURNER started at 2021-05-28 20:02:42.889639 
+[INFO@492123] running command: ./SAMPLER_AFTERBURNER
+[INFO@1124283] SAMPLER_AFTERBURNER finished in 0:10:32.160502 
+[INFO@1124374] 145768 particles in 103 oversamples
+[INFO@1124744] All Oversampling and Afterburners finished in 0:10:32.343587 
+[INFO@1124744] Fraction of time spent in trento, fs, hydro       : 0.437338 
+[INFO@1124745] Fraction of time spent in sampling, afterburning  : 0.562662 
+[INFO@1124745] computing observables for delta_f = 1
+[INFO@1124748] charged and abs_eta < 0.5 : 18500.0
+[INFO@1124855] Reading hadron list and computing observables finished in 0:00:00.109842 
+[INFO@1124855] event 0 completed successfully
+[INFO@1124864] finished at 2021-05-28 20:13:15.630814, 0:18:44.488478 elapsed
+[INFO@375] started at 2021-05-28 19:54:31.890302
+[INFO@376] arguments: Namespace(logfile='/scr/logs/2113883/1002.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1002.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@376] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@437] working directory: /tmp/jetscape-vdwj5zj6
+[WARNING@438] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@438] starting jetscape event 0
+[INFO@439] TRENTO_VAH started at 2021-05-28 19:54:31.953578 
+[INFO@439] running command: ./TRENTO_VAH
+[INFO@325087] TRENTO_VAH finished in 0:05:24.648250 
+[INFO@325188] Max radius of freezeout surface : 7.710300
+[INFO@325188] idf  = 0
+[INFO@325200] Run iS3D and smash
+[INFO@325200] SAMPLER_AFTERBURNER started at 2021-05-28 19:59:56.714966 
+[INFO@325200] running command: ./SAMPLER_AFTERBURNER
+[INFO@819204] SAMPLER_AFTERBURNER finished in 0:08:14.003577 
+[INFO@819296] 148016 particles in 387 oversamples
+[INFO@819680] All Oversampling and Afterburners finished in 0:08:14.116715 
+[INFO@819680] Fraction of time spent in trento, fs, hydro       : 0.396510 
+[INFO@819680] Fraction of time spent in sampling, afterburning  : 0.603490 
+[INFO@819680] computing observables for delta_f = 1
+[INFO@819683] charged and abs_eta < 0.5 : 18241.0
+[INFO@819790] Reading hadron list and computing observables finished in 0:00:00.109641 
+[INFO@819791] event 0 completed successfully
+[INFO@819799] finished at 2021-05-28 20:08:11.314014, 0:13:39.423712 elapsed
+[INFO@374] started at 2021-05-28 19:54:33.837424
+[INFO@375] arguments: Namespace(logfile='/scr/logs/2113883/1003.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1003.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@375] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@436] working directory: /tmp/jetscape-dg928vea
+[WARNING@437] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@437] starting jetscape event 0
+[INFO@437] TRENTO_VAH started at 2021-05-28 19:54:33.900626 
+[INFO@438] running command: ./TRENTO_VAH
+[INFO@273481] TRENTO_VAH finished in 0:04:33.043991 
+[INFO@273553] Max radius of freezeout surface : 6.218180
+[INFO@273553] idf  = 0
+[INFO@273565] Run iS3D and smash
+[INFO@273565] SAMPLER_AFTERBURNER started at 2021-05-28 19:59:07.028351 
+[INFO@273565] running command: ./SAMPLER_AFTERBURNER
+[INFO@706780] SAMPLER_AFTERBURNER finished in 0:07:13.214655 
+[INFO@706873] 149996 particles in 742 oversamples
+[INFO@707249] All Oversampling and Afterburners finished in 0:07:13.298389 
+[INFO@707250] Fraction of time spent in trento, fs, hydro       : 0.386560 
+[INFO@707250] Fraction of time spent in sampling, afterburning  : 0.613440 
+[INFO@707251] computing observables for delta_f = 1
+[INFO@707254] charged and abs_eta < 0.5 : 18475.0
+[INFO@707362] Reading hadron list and computing observables finished in 0:00:00.111433 
+[INFO@707363] event 0 completed successfully
+[INFO@707371] finished at 2021-05-28 20:06:20.834095, 0:11:46.996671 elapsed
+[INFO@373] started at 2021-05-28 19:54:34.328270
+[INFO@374] arguments: Namespace(logfile='/scr/logs/2113883/1004.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1004.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@374] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@434] working directory: /tmp/jetscape-ewft_8xp
+[WARNING@435] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@436] starting jetscape event 0
+[INFO@436] TRENTO_VAH started at 2021-05-28 19:54:34.390866 
+[INFO@436] running command: ./TRENTO_VAH
+[INFO@505877] TRENTO_VAH finished in 0:08:25.441302 
+[INFO@506054] Max radius of freezeout surface : 7.956470
+[INFO@506054] idf  = 0
+[INFO@506066] Run iS3D and smash
+[INFO@506066] SAMPLER_AFTERBURNER started at 2021-05-28 20:03:00.021282 
+[INFO@506067] running command: ./SAMPLER_AFTERBURNER
+[INFO@1149250] SAMPLER_AFTERBURNER finished in 0:10:43.183902 
+[INFO@1149343] 145445 particles in 87 oversamples
+[INFO@1149712] All Oversampling and Afterburners finished in 0:10:43.373016 
+[INFO@1149712] Fraction of time spent in trento, fs, hydro       : 0.439968 
+[INFO@1149713] Fraction of time spent in sampling, afterburning  : 0.560032 
+[INFO@1149713] computing observables for delta_f = 1
+[INFO@1149716] charged and abs_eta < 0.5 : 18793.0
+[INFO@1149826] Reading hadron list and computing observables finished in 0:00:00.113289 
+[INFO@1149827] event 0 completed successfully
+[INFO@1149836] finished at 2021-05-28 20:13:43.790447, 0:19:09.462177 elapsed
+[INFO@383] started at 2021-05-28 19:54:13.177595
+[INFO@384] arguments: Namespace(logfile='/scr/logs/2113883/1005.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1005.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@384] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@445] working directory: /tmp/jetscape-36jzpoyx
+[WARNING@447] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@447] starting jetscape event 0
+[INFO@447] TRENTO_VAH started at 2021-05-28 19:54:13.241572 
+[INFO@447] running command: ./TRENTO_VAH
+[INFO@517230] TRENTO_VAH finished in 0:08:36.782590 
+[INFO@517403] Max radius of freezeout surface : 8.013130
+[INFO@517403] idf  = 0
+[INFO@517415] Run iS3D and smash
+[INFO@517415] SAMPLER_AFTERBURNER started at 2021-05-28 20:02:50.209133 
+[INFO@517415] running command: ./SAMPLER_AFTERBURNER
+[INFO@1153342] SAMPLER_AFTERBURNER finished in 0:10:35.927276 
+[INFO@1153433] 145302 particles in 103 oversamples
+[INFO@1153805] All Oversampling and Afterburners finished in 0:10:36.112247 
+[INFO@1153805] Fraction of time spent in trento, fs, hydro       : 0.448248 
+[INFO@1153806] Fraction of time spent in sampling, afterburning  : 0.551752 
+[INFO@1153806] computing observables for delta_f = 1
+[INFO@1153809] charged and abs_eta < 0.5 : 18867.0
+[INFO@1153916] Reading hadron list and computing observables finished in 0:00:00.110003 
+[INFO@1153917] event 0 completed successfully
+[INFO@1153926] finished at 2021-05-28 20:13:26.720668, 0:19:13.543073 elapsed
+[INFO@378] started at 2021-05-28 19:54:29.411611
+[INFO@378] arguments: Namespace(logfile='/scr/logs/2113883/1006.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1006.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@379] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@443] working directory: /tmp/jetscape-h85ox0iw
+[WARNING@444] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@444] starting jetscape event 0
+[INFO@445] TRENTO_VAH started at 2021-05-28 19:54:29.478374 
+[INFO@445] running command: ./TRENTO_VAH
+[INFO@360482] TRENTO_VAH finished in 0:06:00.037653 
+[INFO@360589] Max radius of freezeout surface : 6.330050
+[INFO@360589] idf  = 0
+[INFO@360600] Run iS3D and smash
+[INFO@360601] SAMPLER_AFTERBURNER started at 2021-05-28 20:00:29.634277 
+[INFO@360601] running command: ./SAMPLER_AFTERBURNER
+[INFO@870568] SAMPLER_AFTERBURNER finished in 0:08:29.967764 
+[INFO@870660] 147379 particles in 283 oversamples
+[INFO@871041] All Oversampling and Afterburners finished in 0:08:30.086014 
+[INFO@871041] Fraction of time spent in trento, fs, hydro       : 0.413778 
+[INFO@871041] Fraction of time spent in sampling, afterburning  : 0.586222 
+[INFO@871041] computing observables for delta_f = 1
+[INFO@871044] charged and abs_eta < 0.5 : 18901.0
+[INFO@871154] Reading hadron list and computing observables finished in 0:00:00.112591 
+[INFO@871155] event 0 completed successfully
+[INFO@871163] finished at 2021-05-28 20:09:00.197025, 0:14:30.785414 elapsed
+[INFO@377] started at 2021-05-28 19:54:38.360857
+[INFO@378] arguments: Namespace(logfile='/scr/logs/2113883/1007.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1007.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@378] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@437] working directory: /tmp/jetscape-g1h44s6c
+[WARNING@439] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@439] starting jetscape event 0
+[INFO@439] TRENTO_VAH started at 2021-05-28 19:54:38.422916 
+[INFO@439] running command: ./TRENTO_VAH
+[INFO@526495] TRENTO_VAH finished in 0:08:46.055685 
+[INFO@526690] Max radius of freezeout surface : 8.755180
+[INFO@526691] idf  = 0
+[INFO@526702] Run iS3D and smash
+[INFO@526702] SAMPLER_AFTERBURNER started at 2021-05-28 20:03:24.685966 
+[INFO@526702] running command: ./SAMPLER_AFTERBURNER
+[INFO@1223486] SAMPLER_AFTERBURNER finished in 0:11:36.784178 
+[INFO@1223579] 146088 particles in 71 oversamples
+[INFO@1223948] All Oversampling and Afterburners finished in 0:11:36.991543 
+[INFO@1223948] Fraction of time spent in trento, fs, hydro       : 0.430119 
+[INFO@1223949] Fraction of time spent in sampling, afterburning  : 0.569881 
+[INFO@1223949] computing observables for delta_f = 1
+[INFO@1223952] charged and abs_eta < 0.5 : 18876.0
+[INFO@1224064] Reading hadron list and computing observables finished in 0:00:00.115044 
+[INFO@1224065] event 0 completed successfully
+[INFO@1224074] finished at 2021-05-28 20:15:02.057498, 0:20:23.696641 elapsed
+[INFO@383] started at 2021-05-28 19:54:40.582363
+[INFO@384] arguments: Namespace(logfile='/scr/logs/2113883/1008.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1008.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@384] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@445] working directory: /tmp/jetscape-2o6aluin
+[WARNING@447] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@447] starting jetscape event 0
+[INFO@447] TRENTO_VAH started at 2021-05-28 19:54:40.646349 
+[INFO@447] running command: ./TRENTO_VAH
+[INFO@805519] TRENTO_VAH finished in 0:13:25.071538 
+[INFO@805937] Max radius of freezeout surface : 10.614900
+[INFO@805938] idf  = 0
+[INFO@805949] Run iS3D and smash
+[INFO@805949] SAMPLER_AFTERBURNER started at 2021-05-28 20:08:06.148474 
+[INFO@805950] running command: ./SAMPLER_AFTERBURNER
+[INFO@1909725] SAMPLER_AFTERBURNER finished in 0:18:23.775841 
+[INFO@1909820] 148814 particles in 19 oversamples
+[INFO@1910196] All Oversampling and Afterburners finished in 0:18:24.206428 
+[INFO@1910196] Fraction of time spent in trento, fs, hydro       : 0.421663 
+[INFO@1910197] Fraction of time spent in sampling, afterburning  : 0.578337 
+[INFO@1910197] computing observables for delta_f = 1
+[INFO@1910200] charged and abs_eta < 0.5 : 19462.0
+[INFO@1910312] Reading hadron list and computing observables finished in 0:00:00.115304 
+[INFO@1910313] event 0 completed successfully
+[INFO@1910324] finished at 2021-05-28 20:26:30.522514, 0:31:49.940151 elapsed
+[INFO@386] started at 2021-05-28 19:54:46.229619
+[INFO@387] arguments: Namespace(logfile='/scr/logs/2113883/1009.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1009.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@387] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@449] working directory: /tmp/jetscape-_uglebf4
+[WARNING@450] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@451] starting jetscape event 0
+[INFO@451] TRENTO_VAH started at 2021-05-28 19:54:46.294297 
+[INFO@451] running command: ./TRENTO_VAH
+[INFO@900657] TRENTO_VAH finished in 0:15:00.206236 
+[INFO@901169] Max radius of freezeout surface : 11.603000
+[INFO@901169] idf  = 0
+[INFO@901180] Run iS3D and smash
+[INFO@901181] SAMPLER_AFTERBURNER started at 2021-05-28 20:09:47.023799 
+[INFO@901181] running command: ./SAMPLER_AFTERBURNER
+[INFO@2181292] SAMPLER_AFTERBURNER finished in 0:21:20.111769 
+[INFO@2181388] 150922 particles in 15 oversamples
+[INFO@2181773] All Oversampling and Afterburners finished in 0:21:20.635035 
+[INFO@2181773] Fraction of time spent in trento, fs, hydro       : 0.412779 
+[INFO@2181774] Fraction of time spent in sampling, afterburning  : 0.587221 
+[INFO@2181774] computing observables for delta_f = 1
+[INFO@2181777] charged and abs_eta < 0.5 : 19793.0
+[INFO@2181893] Reading hadron list and computing observables finished in 0:00:00.119065 
+[INFO@2181893] event 0 completed successfully
+[INFO@2181904] finished at 2021-05-28 20:31:07.747678, 0:36:21.518059 elapsed
+[INFO@368] started at 2021-05-28 19:35:17.682230
+[INFO@369] arguments: Namespace(logfile='/scr/logs/2113883/100.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/100.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@369] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@428] working directory: /tmp/jetscape-2hr0lvxh
+[WARNING@429] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@429] starting jetscape event 0
+[INFO@430] TRENTO_VAH started at 2021-05-28 19:35:17.743812 
+[INFO@430] running command: ./TRENTO_VAH
+[INFO@387039] TRENTO_VAH finished in 0:06:26.609468 
+[INFO@387161] Max radius of freezeout surface : 7.067960
+[INFO@387161] idf  = 0
+[INFO@387172] Run iS3D and smash
+[INFO@387173] SAMPLER_AFTERBURNER started at 2021-05-28 19:41:44.486620 
+[INFO@387173] running command: ./SAMPLER_AFTERBURNER
+[INFO@919815] SAMPLER_AFTERBURNER finished in 0:08:52.642216 
+[INFO@919905] 145889 particles in 188 oversamples
+[INFO@920272] All Oversampling and Afterburners finished in 0:08:52.775556 
+[INFO@920273] Fraction of time spent in trento, fs, hydro       : 0.420509 
+[INFO@920273] Fraction of time spent in sampling, afterburning  : 0.579491 
+[INFO@920273] computing observables for delta_f = 1
+[INFO@920276] charged and abs_eta < 0.5 : 18468.0
+[INFO@920383] Reading hadron list and computing observables finished in 0:00:00.109926 
+[INFO@920384] event 0 completed successfully
+[INFO@920393] finished at 2021-05-28 19:50:37.706586, 0:15:20.024356 elapsed
+[INFO@399] started at 2021-05-28 19:54:25.479917
+[INFO@399] arguments: Namespace(logfile='/scr/logs/2113883/1010.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1010.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@399] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@462] working directory: /tmp/jetscape-465nfif7
+[WARNING@463] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@463] starting jetscape event 0
+[INFO@464] TRENTO_VAH started at 2021-05-28 19:54:25.545200 
+[INFO@464] running command: ./TRENTO_VAH
+[INFO@774429] TRENTO_VAH finished in 0:12:53.964723 
+[INFO@774785] Max radius of freezeout surface : 9.800660
+[INFO@774785] idf  = 0
+[INFO@774797] Run iS3D and smash
+[INFO@774797] SAMPLER_AFTERBURNER started at 2021-05-28 20:07:19.878011 
+[INFO@774797] running command: ./SAMPLER_AFTERBURNER
+[INFO@1777128] SAMPLER_AFTERBURNER finished in 0:16:42.331640 
+[INFO@1777223] 147370 particles in 27 oversamples
+[INFO@1777602] All Oversampling and Afterburners finished in 0:16:42.699728 
+[INFO@1777602] Fraction of time spent in trento, fs, hydro       : 0.435628 
+[INFO@1777603] Fraction of time spent in sampling, afterburning  : 0.564372 
+[INFO@1777603] computing observables for delta_f = 1
+[INFO@1777606] charged and abs_eta < 0.5 : 19322.0
+[INFO@1777718] Reading hadron list and computing observables finished in 0:00:00.114662 
+[INFO@1777718] event 0 completed successfully
+[INFO@1777729] finished at 2021-05-28 20:24:02.810189, 0:29:37.330272 elapsed
+[INFO@387] started at 2021-05-28 19:54:35.621946
+[INFO@388] arguments: Namespace(logfile='/scr/logs/2113883/1011.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1011.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@388] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@452] working directory: /tmp/jetscape-9ls57aqo
+[WARNING@453] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@454] starting jetscape event 0
+[INFO@454] TRENTO_VAH started at 2021-05-28 19:54:35.688764 
+[INFO@454] running command: ./TRENTO_VAH
+[INFO@439703] TRENTO_VAH finished in 0:07:19.249208 
+[INFO@439846] Max radius of freezeout surface : 6.597870
+[INFO@439847] idf  = 0
+[INFO@439859] Run iS3D and smash
+[INFO@439859] SAMPLER_AFTERBURNER started at 2021-05-28 20:01:55.093751 
+[INFO@439859] running command: ./SAMPLER_AFTERBURNER
+[INFO@1017952] SAMPLER_AFTERBURNER finished in 0:09:38.093007 
+[INFO@1018042] 145425 particles in 139 oversamples
+[INFO@1018406] All Oversampling and Afterburners finished in 0:09:38.248786 
+[INFO@1018406] Fraction of time spent in trento, fs, hydro       : 0.431695 
+[INFO@1018407] Fraction of time spent in sampling, afterburning  : 0.568305 
+[INFO@1018407] computing observables for delta_f = 1
+[INFO@1018410] charged and abs_eta < 0.5 : 18901.0
+[INFO@1018517] Reading hadron list and computing observables finished in 0:00:00.110347 
+[INFO@1018518] event 0 completed successfully
+[INFO@1018527] finished at 2021-05-28 20:11:33.761354, 0:16:58.139408 elapsed
+[INFO@388] started at 2021-05-28 19:55:03.503885
+[INFO@389] arguments: Namespace(logfile='/scr/logs/2113883/1012.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1012.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@389] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@453] working directory: /tmp/jetscape-s1qxa304
+[WARNING@454] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@454] starting jetscape event 0
+[INFO@455] TRENTO_VAH started at 2021-05-28 19:55:03.570212 
+[INFO@455] running command: ./TRENTO_VAH
+[INFO@701496] TRENTO_VAH finished in 0:11:41.040697 
+[INFO@701828] Max radius of freezeout surface : 9.464430
+[INFO@701828] idf  = 0
+[INFO@701839] Run iS3D and smash
+[INFO@701840] SAMPLER_AFTERBURNER started at 2021-05-28 20:06:44.955024 
+[INFO@701840] running command: ./SAMPLER_AFTERBURNER
+[INFO@1625290] SAMPLER_AFTERBURNER finished in 0:15:23.450278 
+[INFO@1625382] 147699 particles in 31 oversamples
+[INFO@1625759] All Oversampling and Afterburners finished in 0:15:23.794393 
+[INFO@1625759] Fraction of time spent in trento, fs, hydro       : 0.431453 
+[INFO@1625759] Fraction of time spent in sampling, afterburning  : 0.568547 
+[INFO@1625759] computing observables for delta_f = 1
+[INFO@1625762] charged and abs_eta < 0.5 : 19219.0
+[INFO@1625873] Reading hadron list and computing observables finished in 0:00:00.113693 
+[INFO@1625874] event 0 completed successfully
+[INFO@1625883] finished at 2021-05-28 20:22:08.998926, 0:27:05.495041 elapsed
+[INFO@376] started at 2021-05-28 19:54:50.882307
+[INFO@377] arguments: Namespace(logfile='/scr/logs/2113883/1013.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1013.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@377] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@439] working directory: /tmp/jetscape-_7nmqswj
+[WARNING@440] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@440] starting jetscape event 0
+[INFO@441] TRENTO_VAH started at 2021-05-28 19:54:50.946789 
+[INFO@441] running command: ./TRENTO_VAH
+[INFO@652460] TRENTO_VAH finished in 0:10:52.018916 
+[INFO@652735] Max radius of freezeout surface : 9.148960
+[INFO@652735] idf  = 0
+[INFO@652747] Run iS3D and smash
+[INFO@652747] SAMPLER_AFTERBURNER started at 2021-05-28 20:05:43.252840 
+[INFO@652747] running command: ./SAMPLER_AFTERBURNER
+[INFO@1479201] SAMPLER_AFTERBURNER finished in 0:13:46.454103 
+[INFO@1479294] 147371 particles in 42 oversamples
+[INFO@1479673] All Oversampling and Afterburners finished in 0:13:46.741238 
+[INFO@1479673] Fraction of time spent in trento, fs, hydro       : 0.440923 
+[INFO@1479674] Fraction of time spent in sampling, afterburning  : 0.559077 
+[INFO@1479674] computing observables for delta_f = 1
+[INFO@1479677] charged and abs_eta < 0.5 : 19374.0
+[INFO@1479790] Reading hadron list and computing observables finished in 0:00:00.116668 
+[INFO@1479791] event 0 completed successfully
+[INFO@1479800] finished at 2021-05-28 20:19:30.306344, 0:24:39.424037 elapsed
+[INFO@389] started at 2021-05-28 19:54:51.338270
+[INFO@390] arguments: Namespace(logfile='/scr/logs/2113883/1014.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1014.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@390] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@453] working directory: /tmp/jetscape-l6swhrgg
+[WARNING@454] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@454] starting jetscape event 0
+[INFO@455] TRENTO_VAH started at 2021-05-28 19:54:51.403859 
+[INFO@455] running command: ./TRENTO_VAH
+[INFO@518303] TRENTO_VAH finished in 0:08:37.848126 
+[INFO@518494] Max radius of freezeout surface : 9.678220
+[INFO@518494] idf  = 0
+[INFO@518506] Run iS3D and smash
+[INFO@518506] SAMPLER_AFTERBURNER started at 2021-05-28 20:03:29.455371 
+[INFO@518506] running command: ./SAMPLER_AFTERBURNER
+[INFO@1201280] SAMPLER_AFTERBURNER finished in 0:11:22.773790 
+[INFO@1201372] 145259 particles in 80 oversamples
+[INFO@1201740] All Oversampling and Afterburners finished in 0:11:22.977176 
+[INFO@1201741] Fraction of time spent in trento, fs, hydro       : 0.431244 
+[INFO@1201741] Fraction of time spent in sampling, afterburning  : 0.568756 
+[INFO@1201741] computing observables for delta_f = 1
+[INFO@1201744] charged and abs_eta < 0.5 : 18975.0
+[INFO@1201854] Reading hadron list and computing observables finished in 0:00:00.112458 
+[INFO@1201855] event 0 completed successfully
+[INFO@1201865] finished at 2021-05-28 20:14:52.813918, 0:20:01.475648 elapsed
+[INFO@389] started at 2021-05-28 19:54:58.367363
+[INFO@389] arguments: Namespace(logfile='/scr/logs/2113883/1015.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1015.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@390] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@451] working directory: /tmp/jetscape-2bllko5k
+[WARNING@452] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@452] starting jetscape event 0
+[INFO@453] TRENTO_VAH started at 2021-05-28 19:54:58.431323 
+[INFO@453] running command: ./TRENTO_VAH
+[INFO@805916] TRENTO_VAH finished in 0:13:25.463411 
+[INFO@806307] Max radius of freezeout surface : 10.542900
+[INFO@806307] idf  = 0
+[INFO@806319] Run iS3D and smash
+[INFO@806319] SAMPLER_AFTERBURNER started at 2021-05-28 20:08:24.297585 
+[INFO@806319] running command: ./SAMPLER_AFTERBURNER
+[INFO@1860595] SAMPLER_AFTERBURNER finished in 0:17:34.275988 
+[INFO@1860687] 148423 particles in 22 oversamples
+[INFO@1861064] All Oversampling and Afterburners finished in 0:17:34.678839 
+[INFO@1861064] Fraction of time spent in trento, fs, hydro       : 0.433012 
+[INFO@1861065] Fraction of time spent in sampling, afterburning  : 0.566988 
+[INFO@1861065] computing observables for delta_f = 1
+[INFO@1861068] charged and abs_eta < 0.5 : 19546.0
+[INFO@1861178] Reading hadron list and computing observables finished in 0:00:00.113077 
+[INFO@1861178] event 0 completed successfully
+[INFO@1861189] finished at 2021-05-28 20:25:59.167274, 0:31:00.799911 elapsed
+[INFO@390] started at 2021-05-28 19:55:01.127550
+[INFO@391] arguments: Namespace(logfile='/scr/logs/2113883/1016.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1016.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@391] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@454] working directory: /tmp/jetscape-bxrkvb7s
+[WARNING@455] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@455] starting jetscape event 0
+[INFO@456] TRENTO_VAH started at 2021-05-28 19:55:01.193288 
+[INFO@456] running command: ./TRENTO_VAH
+[INFO@489261] TRENTO_VAH finished in 0:08:08.805193 
+[INFO@489439] Max radius of freezeout surface : 8.833900
+[INFO@489440] idf  = 0
+[INFO@489452] Run iS3D and smash
+[INFO@489452] SAMPLER_AFTERBURNER started at 2021-05-28 20:03:10.189334 
+[INFO@489452] running command: ./SAMPLER_AFTERBURNER
+[INFO@1140961] SAMPLER_AFTERBURNER finished in 0:10:51.509104 
+[INFO@1141054] 146674 particles in 107 oversamples
+[INFO@1141433] All Oversampling and Afterburners finished in 0:10:51.699957 
+[INFO@1141434] Fraction of time spent in trento, fs, hydro       : 0.428587 
+[INFO@1141434] Fraction of time spent in sampling, afterburning  : 0.571413 
+[INFO@1141434] computing observables for delta_f = 1
+[INFO@1141438] charged and abs_eta < 0.5 : 18705.0
+[INFO@1141548] Reading hadron list and computing observables finished in 0:00:00.113425 
+[INFO@1141548] event 0 completed successfully
+[INFO@1141558] finished at 2021-05-28 20:14:02.294992, 0:19:01.167442 elapsed
+[INFO@381] started at 2021-05-28 19:54:46.876424
+[INFO@381] arguments: Namespace(logfile='/scr/logs/2113883/1017.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1017.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@382] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@443] working directory: /tmp/jetscape-w0n7z4e7
+[WARNING@444] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@444] starting jetscape event 0
+[INFO@445] TRENTO_VAH started at 2021-05-28 19:54:46.940371 
+[INFO@445] running command: ./TRENTO_VAH
+[INFO@329697] TRENTO_VAH finished in 0:05:29.252159 
+[INFO@329781] Max radius of freezeout surface : 5.533420
+[INFO@329782] idf  = 0
+[INFO@329794] Run iS3D and smash
+[INFO@329794] SAMPLER_AFTERBURNER started at 2021-05-28 20:00:16.290062 
+[INFO@329794] running command: ./SAMPLER_AFTERBURNER
+[INFO@806956] SAMPLER_AFTERBURNER finished in 0:07:57.161728 
+[INFO@807049] 146210 particles in 368 oversamples
+[INFO@807420] All Oversampling and Afterburners finished in 0:07:57.259260 
+[INFO@807420] Fraction of time spent in trento, fs, hydro       : 0.408242 
+[INFO@807421] Fraction of time spent in sampling, afterburning  : 0.591758 
+[INFO@807421] computing observables for delta_f = 1
+[INFO@807424] charged and abs_eta < 0.5 : 19035.0
+[INFO@807533] Reading hadron list and computing observables finished in 0:00:00.112447 
+[INFO@807534] event 0 completed successfully
+[INFO@807542] finished at 2021-05-28 20:08:14.038144, 0:13:27.161720 elapsed
+[INFO@390] started at 2021-05-28 19:54:48.337779
+[INFO@391] arguments: Namespace(logfile='/scr/logs/2113883/1018.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1018.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@391] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@456] working directory: /tmp/jetscape-irf3zgaw
+[WARNING@457] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@457] starting jetscape event 0
+[INFO@458] TRENTO_VAH started at 2021-05-28 19:54:48.405531 
+[INFO@458] running command: ./TRENTO_VAH
+[INFO@300447] TRENTO_VAH finished in 0:04:59.988741 
+[INFO@300524] Max radius of freezeout surface : 5.704420
+[INFO@300525] idf  = 0
+[INFO@300536] Run iS3D and smash
+[INFO@300536] SAMPLER_AFTERBURNER started at 2021-05-28 19:59:48.483808 
+[INFO@300536] running command: ./SAMPLER_AFTERBURNER
+[INFO@768959] SAMPLER_AFTERBURNER finished in 0:07:48.422541 
+[INFO@769050] 148267 particles in 547 oversamples
+[INFO@769430] All Oversampling and Afterburners finished in 0:07:48.512077 
+[INFO@769430] Fraction of time spent in trento, fs, hydro       : 0.390356 
+[INFO@769431] Fraction of time spent in sampling, afterburning  : 0.609644 
+[INFO@769431] computing observables for delta_f = 1
+[INFO@769434] charged and abs_eta < 0.5 : 18398.0
+[INFO@769544] Reading hadron list and computing observables finished in 0:00:00.113159 
+[INFO@769545] event 0 completed successfully
+[INFO@769554] finished at 2021-05-28 20:07:37.501285, 0:12:49.163506 elapsed
+[INFO@382] started at 2021-05-28 19:55:04.275792
+[INFO@383] arguments: Namespace(logfile='/scr/logs/2113883/1019.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1019.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@383] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@444] working directory: /tmp/jetscape-qw7lxm2_
+[WARNING@445] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@446] starting jetscape event 0
+[INFO@446] TRENTO_VAH started at 2021-05-28 19:55:04.339677 
+[INFO@446] running command: ./TRENTO_VAH
+[INFO@172543] TRENTO_VAH finished in 0:02:52.096312 
+[INFO@172576] Max radius of freezeout surface : 4.189330
+[INFO@172577] idf  = 0
+[INFO@172587] Run iS3D and smash
+[INFO@172587] SAMPLER_AFTERBURNER started at 2021-05-28 19:57:56.480226 
+[INFO@172587] running command: ./SAMPLER_AFTERBURNER
+[INFO@318853] SAMPLER_AFTERBURNER finished in 0:02:26.266322 
+[INFO@318883] 27013 particles in 1000 oversamples
+[INFO@318952] All Oversampling and Afterburners finished in 0:02:26.310559 
+[INFO@318952] Fraction of time spent in trento, fs, hydro       : 0.540492 
+[INFO@318953] Fraction of time spent in sampling, afterburning  : 0.459508 
+[INFO@318953] computing observables for delta_f = 1
+[INFO@318954] charged and abs_eta < 0.5 : 3201.0
+[INFO@318978] Reading hadron list and computing observables finished in 0:00:00.024526 
+[INFO@318978] event 0 completed successfully
+[INFO@318983] finished at 2021-05-28 20:00:22.876603, 0:05:18.600811 elapsed
+[INFO@371] started at 2021-05-28 19:35:18.099488
+[INFO@372] arguments: Namespace(logfile='/scr/logs/2113883/101.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/101.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@372] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@431] working directory: /tmp/jetscape-c_1e3lrr
+[WARNING@433] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@433] starting jetscape event 0
+[INFO@433] TRENTO_VAH started at 2021-05-28 19:35:18.161728 
+[INFO@433] running command: ./TRENTO_VAH
+[INFO@713315] TRENTO_VAH finished in 0:11:52.881813 
+[INFO@713656] Max radius of freezeout surface : 9.811470
+[INFO@713656] idf  = 0
+[INFO@713668] Run iS3D and smash
+[INFO@713668] SAMPLER_AFTERBURNER started at 2021-05-28 19:47:11.396136 
+[INFO@713668] running command: ./SAMPLER_AFTERBURNER
+[INFO@1679251] SAMPLER_AFTERBURNER finished in 0:16:05.583352 
+[INFO@1679343] 145133 particles in 28 oversamples
+[INFO@1679718] All Oversampling and Afterburners finished in 0:16:05.935947 
+[INFO@1679719] Fraction of time spent in trento, fs, hydro       : 0.424633 
+[INFO@1679719] Fraction of time spent in sampling, afterburning  : 0.575367 
+[INFO@1679719] computing observables for delta_f = 1
+[INFO@1679722] charged and abs_eta < 0.5 : 19146.0
+[INFO@1679832] Reading hadron list and computing observables finished in 0:00:00.112486 
+[INFO@1679832] event 0 completed successfully
+[INFO@1679842] finished at 2021-05-28 20:03:17.570441, 0:27:59.470953 elapsed
+[INFO@382] started at 2021-05-28 19:55:20.791116
+[INFO@383] arguments: Namespace(logfile='/scr/logs/2113883/1020.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1020.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@383] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@445] working directory: /tmp/jetscape-wxdo5c0l
+[WARNING@446] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@447] starting jetscape event 0
+[INFO@447] TRENTO_VAH started at 2021-05-28 19:55:20.855939 
+[INFO@447] running command: ./TRENTO_VAH
+[INFO@670944] TRENTO_VAH finished in 0:11:10.497398 
+[INFO@671243] Max radius of freezeout surface : 9.372440
+[INFO@671243] idf  = 0
+[INFO@671255] Run iS3D and smash
+[INFO@671255] SAMPLER_AFTERBURNER started at 2021-05-28 20:06:31.663889 
+[INFO@671255] running command: ./SAMPLER_AFTERBURNER
+[INFO@1538567] SAMPLER_AFTERBURNER finished in 0:14:27.312564 
+[INFO@1538661] 147840 particles in 37 oversamples
+[INFO@1539035] All Oversampling and Afterburners finished in 0:14:27.623116 
+[INFO@1539035] Fraction of time spent in trento, fs, hydro       : 0.435920 
+[INFO@1539036] Fraction of time spent in sampling, afterburning  : 0.564080 
+[INFO@1539036] computing observables for delta_f = 1
+[INFO@1539039] charged and abs_eta < 0.5 : 19208.0
+[INFO@1539150] Reading hadron list and computing observables finished in 0:00:00.114030 
+[INFO@1539151] event 0 completed successfully
+[INFO@1539160] finished at 2021-05-28 20:20:59.569279, 0:25:38.778163 elapsed
+[INFO@380] started at 2021-05-28 19:55:11.573515
+[INFO@380] arguments: Namespace(logfile='/scr/logs/2113883/1021.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1021.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@380] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@444] working directory: /tmp/jetscape-_mn2a96t
+[WARNING@445] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@446] starting jetscape event 0
+[INFO@446] TRENTO_VAH started at 2021-05-28 19:55:11.640155 
+[INFO@446] running command: ./TRENTO_VAH
+[INFO@823001] TRENTO_VAH finished in 0:13:42.554757 
+[INFO@823420] Max radius of freezeout surface : 10.427300
+[INFO@823420] idf  = 0
+[INFO@823432] Run iS3D and smash
+[INFO@823432] SAMPLER_AFTERBURNER started at 2021-05-28 20:08:54.626244 
+[INFO@823432] running command: ./SAMPLER_AFTERBURNER
+[INFO@1912180] SAMPLER_AFTERBURNER finished in 0:18:08.747180 
+[INFO@1912274] 146556 particles in 20 oversamples
+[INFO@1912662] All Oversampling and Afterburners finished in 0:18:09.178512 
+[INFO@1912662] Fraction of time spent in trento, fs, hydro       : 0.430266 
+[INFO@1912662] Fraction of time spent in sampling, afterburning  : 0.569734 
+[INFO@1912662] computing observables for delta_f = 1
+[INFO@1912665] charged and abs_eta < 0.5 : 19184.0
+[INFO@1912775] Reading hadron list and computing observables finished in 0:00:00.112355 
+[INFO@1912775] event 0 completed successfully
+[INFO@1912786] finished at 2021-05-28 20:27:03.979931, 0:31:52.406416 elapsed
+[INFO@381] started at 2021-05-28 19:55:11.795345
+[INFO@382] arguments: Namespace(logfile='/scr/logs/2113883/1022.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1022.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@382] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@443] working directory: /tmp/jetscape-wc2xnpt7
+[WARNING@444] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@445] starting jetscape event 0
+[INFO@445] TRENTO_VAH started at 2021-05-28 19:55:11.859267 
+[INFO@445] running command: ./TRENTO_VAH
+[INFO@810001] TRENTO_VAH finished in 0:13:29.555658 
+[INFO@810416] Max radius of freezeout surface : 10.193800
+[INFO@810416] idf  = 0
+[INFO@810427] Run iS3D and smash
+[INFO@810428] SAMPLER_AFTERBURNER started at 2021-05-28 20:08:41.841755 
+[INFO@810428] running command: ./SAMPLER_AFTERBURNER
+[INFO@1893230] SAMPLER_AFTERBURNER finished in 0:18:02.802108 
+[INFO@1893323] 148139 particles in 21 oversamples
+[INFO@1893707] All Oversampling and Afterburners finished in 0:18:03.228938 
+[INFO@1893707] Fraction of time spent in trento, fs, hydro       : 0.427706 
+[INFO@1893708] Fraction of time spent in sampling, afterburning  : 0.572294 
+[INFO@1893708] computing observables for delta_f = 1
+[INFO@1893711] charged and abs_eta < 0.5 : 19590.0
+[INFO@1893824] Reading hadron list and computing observables finished in 0:00:00.115647 
+[INFO@1893824] event 0 completed successfully
+[INFO@1893835] finished at 2021-05-28 20:26:45.248684, 0:31:33.453339 elapsed
+[INFO@389] started at 2021-05-28 19:56:46.578339
+[INFO@389] arguments: Namespace(logfile='/scr/logs/2113883/1023.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1023.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@390] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@452] working directory: /tmp/jetscape-yebgarbt
+[WARNING@453] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@454] starting jetscape event 0
+[INFO@454] TRENTO_VAH started at 2021-05-28 19:56:46.643624 
+[INFO@454] running command: ./TRENTO_VAH
+[INFO@494957] TRENTO_VAH finished in 0:08:14.502826 
+[INFO@495125] Max radius of freezeout surface : 7.440270
+[INFO@495125] idf  = 0
+[INFO@495137] Run iS3D and smash
+[INFO@495137] SAMPLER_AFTERBURNER started at 2021-05-28 20:05:01.326364 
+[INFO@495137] running command: ./SAMPLER_AFTERBURNER
+[INFO@1140987] SAMPLER_AFTERBURNER finished in 0:10:45.850516 
+[INFO@1141079] 144800 particles in 111 oversamples
+[INFO@1141457] All Oversampling and Afterburners finished in 0:10:46.030430 
+[INFO@1141457] Fraction of time spent in trento, fs, hydro       : 0.433572 
+[INFO@1141458] Fraction of time spent in sampling, afterburning  : 0.566428 
+[INFO@1141458] computing observables for delta_f = 1
+[INFO@1141461] charged and abs_eta < 0.5 : 18921.0
+[INFO@1141569] Reading hadron list and computing observables finished in 0:00:00.111291 
+[INFO@1141570] event 0 completed successfully
+[INFO@1141579] finished at 2021-05-28 20:15:47.768533, 0:19:01.190194 elapsed
+[INFO@381] started at 2021-05-28 19:55:16.521334
+[INFO@381] arguments: Namespace(logfile='/scr/logs/2113883/1024.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1024.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@381] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@443] working directory: /tmp/jetscape-l74hwfe3
+[WARNING@444] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@444] starting jetscape event 0
+[INFO@445] TRENTO_VAH started at 2021-05-28 19:55:16.585510 
+[INFO@445] running command: ./TRENTO_VAH
+[INFO@645719] TRENTO_VAH finished in 0:10:45.274644 
+[INFO@646003] Max radius of freezeout surface : 9.302150
+[INFO@646003] idf  = 0
+[INFO@646014] Run iS3D and smash
+[INFO@646015] SAMPLER_AFTERBURNER started at 2021-05-28 20:06:02.155325 
+[INFO@646015] running command: ./SAMPLER_AFTERBURNER
+[INFO@1505474] SAMPLER_AFTERBURNER finished in 0:14:19.459779 
+[INFO@1505569] 147886 particles in 43 oversamples
+[INFO@1505998] All Oversampling and Afterburners finished in 0:14:19.754950 
+[INFO@1505998] Fraction of time spent in trento, fs, hydro       : 0.428745 
+[INFO@1505998] Fraction of time spent in sampling, afterburning  : 0.571255 
+[INFO@1505999] computing observables for delta_f = 1
+[INFO@1506002] charged and abs_eta < 0.5 : 19137.0
+[INFO@1506114] Reading hadron list and computing observables finished in 0:00:00.115061 
+[INFO@1506114] event 0 completed successfully
+[INFO@1506124] finished at 2021-05-28 20:20:22.264725, 0:25:05.743391 elapsed
+[INFO@383] started at 2021-05-28 19:55:18.832277
+[INFO@383] arguments: Namespace(logfile='/scr/logs/2113883/1025.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1025.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@384] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@446] working directory: /tmp/jetscape-nv8s8mqc
+[WARNING@448] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@448] starting jetscape event 0
+[INFO@448] TRENTO_VAH started at 2021-05-28 19:55:18.897917 
+[INFO@449] running command: ./TRENTO_VAH
+[INFO@429296] TRENTO_VAH finished in 0:07:08.847589 
+[INFO@429441] Max radius of freezeout surface : 7.920050
+[INFO@429441] idf  = 0
+[INFO@429452] Run iS3D and smash
+[INFO@429452] SAMPLER_AFTERBURNER started at 2021-05-28 20:02:27.901713 
+[INFO@429452] running command: ./SAMPLER_AFTERBURNER
+[INFO@1020972] SAMPLER_AFTERBURNER finished in 0:09:51.519761 
+[INFO@1021062] 146627 particles in 144 oversamples
+[INFO@1021436] All Oversampling and Afterburners finished in 0:09:51.675968 
+[INFO@1021437] Fraction of time spent in trento, fs, hydro       : 0.420223 
+[INFO@1021437] Fraction of time spent in sampling, afterburning  : 0.579777 
+[INFO@1021437] computing observables for delta_f = 1
+[INFO@1021440] charged and abs_eta < 0.5 : 18781.0
+[INFO@1021548] Reading hadron list and computing observables finished in 0:00:00.110660 
+[INFO@1021549] event 0 completed successfully
+[INFO@1021558] finished at 2021-05-28 20:12:20.007380, 0:17:01.175103 elapsed
+[INFO@371] started at 2021-05-28 19:54:21.518958
+[INFO@371] arguments: Namespace(logfile='/scr/logs/2113883/1026.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1026.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@372] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@432] working directory: /tmp/jetscape-gs3ybj1n
+[WARNING@433] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@433] starting jetscape event 0
+[INFO@434] TRENTO_VAH started at 2021-05-28 19:54:21.581816 
+[INFO@434] running command: ./TRENTO_VAH
+[INFO@425146] TRENTO_VAH finished in 0:07:04.712882 
+[INFO@425285] Max radius of freezeout surface : 7.761230
+[INFO@425285] idf  = 0
+[INFO@425297] Run iS3D and smash
+[INFO@425297] SAMPLER_AFTERBURNER started at 2021-05-28 20:01:26.445338 
+[INFO@425297] running command: ./SAMPLER_AFTERBURNER
+[INFO@1002670] SAMPLER_AFTERBURNER finished in 0:09:37.372960 
+[INFO@1002759] 146877 particles in 155 oversamples
+[INFO@1003132] All Oversampling and Afterburners finished in 0:09:37.523600 
+[INFO@1003132] Fraction of time spent in trento, fs, hydro       : 0.423765 
+[INFO@1003132] Fraction of time spent in sampling, afterburning  : 0.576235 
+[INFO@1003132] computing observables for delta_f = 1
+[INFO@1003135] charged and abs_eta < 0.5 : 18699.0
+[INFO@1003251] Reading hadron list and computing observables finished in 0:00:00.118451 
+[INFO@1003252] event 0 completed successfully
+[INFO@1003260] finished at 2021-05-28 20:11:04.408451, 0:16:42.889493 elapsed
+[INFO@378] started at 2021-05-28 19:55:26.110406
+[INFO@378] arguments: Namespace(logfile='/scr/logs/2113883/1027.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1027.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@379] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@440] working directory: /tmp/jetscape-3n3gcmmt
+[WARNING@441] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@442] starting jetscape event 0
+[INFO@442] TRENTO_VAH started at 2021-05-28 19:55:26.174540 
+[INFO@442] running command: ./TRENTO_VAH
+[INFO@292765] TRENTO_VAH finished in 0:04:52.323065 
+[INFO@292840] Max radius of freezeout surface : 5.445100
+[INFO@292840] idf  = 0
+[INFO@292852] Run iS3D and smash
+[INFO@292852] SAMPLER_AFTERBURNER started at 2021-05-28 20:00:18.584129 
+[INFO@292852] running command: ./SAMPLER_AFTERBURNER
+[INFO@758623] SAMPLER_AFTERBURNER finished in 0:07:45.771150 
+[INFO@758717] 152495 particles in 634 oversamples
+[INFO@759102] All Oversampling and Afterburners finished in 0:07:45.857674 
+[INFO@759102] Fraction of time spent in trento, fs, hydro       : 0.385559 
+[INFO@759103] Fraction of time spent in sampling, afterburning  : 0.614441 
+[INFO@759103] computing observables for delta_f = 1
+[INFO@759106] charged and abs_eta < 0.5 : 18475.0
+[INFO@759219] Reading hadron list and computing observables finished in 0:00:00.116534 
+[INFO@759220] event 0 completed successfully
+[INFO@759228] finished at 2021-05-28 20:08:04.960662, 0:12:38.850256 elapsed
+[INFO@385] started at 2021-05-28 19:55:28.408279
+[INFO@385] arguments: Namespace(logfile='/scr/logs/2113883/1028.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1028.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@386] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@448] working directory: /tmp/jetscape-2l9kvtue
+[WARNING@450] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@450] starting jetscape event 0
+[INFO@450] TRENTO_VAH started at 2021-05-28 19:55:28.473999 
+[INFO@450] running command: ./TRENTO_VAH
+[INFO@164345] TRENTO_VAH finished in 0:02:43.894550 
+[INFO@164377] Max radius of freezeout surface : 3.601200
+[INFO@164377] idf  = 0
+[INFO@164388] Run iS3D and smash
+[INFO@164388] SAMPLER_AFTERBURNER started at 2021-05-28 19:58:12.411537 
+[INFO@164388] running command: ./SAMPLER_AFTERBURNER
+[INFO@282272] SAMPLER_AFTERBURNER finished in 0:01:57.884429 
+[INFO@282299] 21886 particles in 1000 oversamples
+[INFO@282355] All Oversampling and Afterburners finished in 0:01:57.927417 
+[INFO@282355] Fraction of time spent in trento, fs, hydro       : 0.581553 
+[INFO@282356] Fraction of time spent in sampling, afterburning  : 0.418447 
+[INFO@282356] computing observables for delta_f = 1
+[INFO@282357] charged and abs_eta < 0.5 : 2617.0
+[INFO@282378] Reading hadron list and computing observables finished in 0:00:00.021545 
+[INFO@282378] event 0 completed successfully
+[INFO@282383] finished at 2021-05-28 20:00:10.407020, 0:04:41.998741 elapsed
+[INFO@381] started at 2021-05-28 19:55:13.165881
+[INFO@382] arguments: Namespace(logfile='/scr/logs/2113883/1029.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1029.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@382] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@444] working directory: /tmp/jetscape-6w4zmkr1
+[WARNING@445] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@446] starting jetscape event 0
+[INFO@446] TRENTO_VAH started at 2021-05-28 19:55:13.230607 
+[INFO@446] running command: ./TRENTO_VAH
+[INFO@533476] TRENTO_VAH finished in 0:08:53.030220 
+[INFO@533676] Max radius of freezeout surface : 8.560320
+[INFO@533676] idf  = 0
+[INFO@533687] Run iS3D and smash
+[INFO@533687] SAMPLER_AFTERBURNER started at 2021-05-28 20:04:06.471919 
+[INFO@533688] running command: ./SAMPLER_AFTERBURNER
+[INFO@1237552] SAMPLER_AFTERBURNER finished in 0:11:43.864237 
+[INFO@1237642] 146383 particles in 88 oversamples
+[INFO@1238021] All Oversampling and Afterburners finished in 0:11:44.075329 
+[INFO@1238021] Fraction of time spent in trento, fs, hydro       : 0.430869 
+[INFO@1238021] Fraction of time spent in sampling, afterburning  : 0.569131 
+[INFO@1238022] computing observables for delta_f = 1
+[INFO@1238024] charged and abs_eta < 0.5 : 18802.0
+[INFO@1238133] Reading hadron list and computing observables finished in 0:00:00.111579 
+[INFO@1238134] event 0 completed successfully
+[INFO@1238143] finished at 2021-05-28 20:15:50.927024, 0:20:37.761143 elapsed
+[INFO@370] started at 2021-05-28 19:35:18.921598
+[INFO@370] arguments: Namespace(logfile='/scr/logs/2113883/102.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/102.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@370] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@430] working directory: /tmp/jetscape-j3t9uw5k
+[WARNING@431] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@431] starting jetscape event 0
+[INFO@432] TRENTO_VAH started at 2021-05-28 19:35:18.983575 
+[INFO@432] running command: ./TRENTO_VAH
+[INFO@609757] TRENTO_VAH finished in 0:10:09.325775 
+[INFO@610000] Max radius of freezeout surface : 8.100020
+[INFO@610000] idf  = 0
+[INFO@610012] Run iS3D and smash
+[INFO@610012] SAMPLER_AFTERBURNER started at 2021-05-28 19:45:28.564292 
+[INFO@610012] running command: ./SAMPLER_AFTERBURNER
+[INFO@1391566] SAMPLER_AFTERBURNER finished in 0:13:01.553359 
+[INFO@1391658] 145278 particles in 52 oversamples
+[INFO@1392025] All Oversampling and Afterburners finished in 0:13:01.808301 
+[INFO@1392025] Fraction of time spent in trento, fs, hydro       : 0.438007 
+[INFO@1392026] Fraction of time spent in sampling, afterburning  : 0.561993 
+[INFO@1392026] computing observables for delta_f = 1
+[INFO@1392029] charged and abs_eta < 0.5 : 19031.0
+[INFO@1392138] Reading hadron list and computing observables finished in 0:00:00.111896 
+[INFO@1392138] event 0 completed successfully
+[INFO@1392147] finished at 2021-05-28 19:58:30.699503, 0:23:11.777905 elapsed
+[INFO@388] started at 2021-05-28 19:55:38.805331
+[INFO@388] arguments: Namespace(logfile='/scr/logs/2113883/1030.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1030.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@389] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@453] working directory: /tmp/jetscape-nu5wov7x
+[WARNING@454] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@454] starting jetscape event 0
+[INFO@455] TRENTO_VAH started at 2021-05-28 19:55:38.872099 
+[INFO@455] running command: ./TRENTO_VAH
+[INFO@452720] TRENTO_VAH finished in 0:07:32.265166 
+[INFO@452868] Max radius of freezeout surface : 7.711350
+[INFO@452868] idf  = 0
+[INFO@452880] Run iS3D and smash
+[INFO@452880] SAMPLER_AFTERBURNER started at 2021-05-28 20:03:11.297727 
+[INFO@452880] running command: ./SAMPLER_AFTERBURNER
+[INFO@1047397] SAMPLER_AFTERBURNER finished in 0:09:54.516826 
+[INFO@1047489] 145873 particles in 133 oversamples
+[INFO@1047861] All Oversampling and Afterburners finished in 0:09:54.677288 
+[INFO@1047862] Fraction of time spent in trento, fs, hydro       : 0.431987 
+[INFO@1047862] Fraction of time spent in sampling, afterburning  : 0.568013 
+[INFO@1047862] computing observables for delta_f = 1
+[INFO@1047865] charged and abs_eta < 0.5 : 18663.0
+[INFO@1047975] Reading hadron list and computing observables finished in 0:00:00.112386 
+[INFO@1047975] event 0 completed successfully
+[INFO@1047985] finished at 2021-05-28 20:13:06.402652, 0:17:27.597321 elapsed
+[INFO@375] started at 2021-05-28 19:55:42.625795
+[INFO@375] arguments: Namespace(logfile='/scr/logs/2113883/1031.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1031.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@376] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@438] working directory: /tmp/jetscape-bevsw1xf
+[WARNING@439] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@439] starting jetscape event 0
+[INFO@440] TRENTO_VAH started at 2021-05-28 19:55:42.690900 
+[INFO@440] running command: ./TRENTO_VAH
+[INFO@573925] TRENTO_VAH finished in 0:09:33.484883 
+[INFO@574129] Max radius of freezeout surface : 8.531540
+[INFO@574129] idf  = 0
+[INFO@574141] Run iS3D and smash
+[INFO@574141] SAMPLER_AFTERBURNER started at 2021-05-28 20:05:16.392429 
+[INFO@574141] running command: ./SAMPLER_AFTERBURNER
+[INFO@1280157] SAMPLER_AFTERBURNER finished in 0:11:46.015440 
+[INFO@1280248] 146446 particles in 75 oversamples
+[INFO@1280625] All Oversampling and Afterburners finished in 0:11:46.232086 
+[INFO@1280626] Fraction of time spent in trento, fs, hydro       : 0.448134 
+[INFO@1280626] Fraction of time spent in sampling, afterburning  : 0.551866 
+[INFO@1280626] computing observables for delta_f = 1
+[INFO@1280629] charged and abs_eta < 0.5 : 18907.0
+[INFO@1280740] Reading hadron list and computing observables finished in 0:00:00.113500 
+[INFO@1280740] event 0 completed successfully
+[INFO@1280749] finished at 2021-05-28 20:17:03.000651, 0:21:20.374856 elapsed
+[INFO@392] started at 2021-05-28 19:55:04.601957
+[INFO@392] arguments: Namespace(logfile='/scr/logs/2113883/1032.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1032.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@392] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@456] working directory: /tmp/jetscape-o0hg0xod
+[WARNING@458] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@458] starting jetscape event 0
+[INFO@458] TRENTO_VAH started at 2021-05-28 19:55:04.668717 
+[INFO@458] running command: ./TRENTO_VAH
+[INFO@608970] TRENTO_VAH finished in 0:10:08.511804 
+[INFO@609208] Max radius of freezeout surface : 8.481060
+[INFO@609208] idf  = 0
+[INFO@609220] Run iS3D and smash
+[INFO@609220] SAMPLER_AFTERBURNER started at 2021-05-28 20:05:13.430867 
+[INFO@609221] running command: ./SAMPLER_AFTERBURNER
+[INFO@1385534] SAMPLER_AFTERBURNER finished in 0:12:56.313244 
+[INFO@1385627] 145815 particles in 51 oversamples
+[INFO@1385998] All Oversampling and Afterburners finished in 0:12:56.563590 
+[INFO@1385998] Fraction of time spent in trento, fs, hydro       : 0.439335 
+[INFO@1385999] Fraction of time spent in sampling, afterburning  : 0.560665 
+[INFO@1385999] computing observables for delta_f = 1
+[INFO@1386002] charged and abs_eta < 0.5 : 19290.0
+[INFO@1386114] Reading hadron list and computing observables finished in 0:00:00.114700 
+[INFO@1386114] event 0 completed successfully
+[INFO@1386124] finished at 2021-05-28 20:18:10.334411, 0:23:05.732454 elapsed
+[INFO@380] started at 2021-05-28 19:55:46.651403
+[INFO@381] arguments: Namespace(logfile='/scr/logs/2113883/1033.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1033.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@381] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@444] working directory: /tmp/jetscape-j0wekq49
+[WARNING@446] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@446] starting jetscape event 0
+[INFO@446] TRENTO_VAH started at 2021-05-28 19:55:46.717381 
+[INFO@446] running command: ./TRENTO_VAH
+[INFO@587684] TRENTO_VAH finished in 0:09:47.237375 
+[INFO@587910] Max radius of freezeout surface : 8.473320
+[INFO@587911] idf  = 0
+[INFO@587922] Run iS3D and smash
+[INFO@587922] SAMPLER_AFTERBURNER started at 2021-05-28 20:05:34.193353 
+[INFO@587922] running command: ./SAMPLER_AFTERBURNER
+[INFO@1329587] SAMPLER_AFTERBURNER finished in 0:12:21.664792 
+[INFO@1329683] 146938 particles in 64 oversamples
+[INFO@1330057] All Oversampling and Afterburners finished in 0:12:21.903389 
+[INFO@1330057] Fraction of time spent in trento, fs, hydro       : 0.441817 
+[INFO@1330058] Fraction of time spent in sampling, afterburning  : 0.558183 
+[INFO@1330058] computing observables for delta_f = 1
+[INFO@1330061] charged and abs_eta < 0.5 : 18887.0
+[INFO@1330176] Reading hadron list and computing observables finished in 0:00:00.118174 
+[INFO@1330177] event 0 completed successfully
+[INFO@1330187] finished at 2021-05-28 20:17:56.457673, 0:22:09.806270 elapsed
+[INFO@378] started at 2021-05-28 19:55:02.553749
+[INFO@379] arguments: Namespace(logfile='/scr/logs/2113883/1034.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1034.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@379] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@440] working directory: /tmp/jetscape-uqv5az45
+[WARNING@441] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@441] starting jetscape event 0
+[INFO@442] TRENTO_VAH started at 2021-05-28 19:55:02.617318 
+[INFO@442] running command: ./TRENTO_VAH
+[INFO@362605] TRENTO_VAH finished in 0:06:02.163111 
+[INFO@362707] Max radius of freezeout surface : 5.739170
+[INFO@362707] idf  = 0
+[INFO@362718] Run iS3D and smash
+[INFO@362718] SAMPLER_AFTERBURNER started at 2021-05-28 20:01:04.893849 
+[INFO@362718] running command: ./SAMPLER_AFTERBURNER
+[INFO@856173] SAMPLER_AFTERBURNER finished in 0:08:13.455020 
+[INFO@856265] 145177 particles in 294 oversamples
+[INFO@856643] All Oversampling and Afterburners finished in 0:08:13.568440 
+[INFO@856643] Fraction of time spent in trento, fs, hydro       : 0.423220 
+[INFO@856643] Fraction of time spent in sampling, afterburning  : 0.576780 
+[INFO@856643] computing observables for delta_f = 1
+[INFO@856646] charged and abs_eta < 0.5 : 18415.0
+[INFO@856753] Reading hadron list and computing observables finished in 0:00:00.109771 
+[INFO@856754] event 0 completed successfully
+[INFO@856763] finished at 2021-05-28 20:09:18.938251, 0:14:16.384502 elapsed
+[INFO@390] started at 2021-05-28 19:55:28.836758
+[INFO@390] arguments: Namespace(logfile='/scr/logs/2113883/1035.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1035.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@390] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@451] working directory: /tmp/jetscape-nv5qqqnm
+[WARNING@453] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@453] starting jetscape event 0
+[INFO@453] TRENTO_VAH started at 2021-05-28 19:55:28.900577 
+[INFO@453] running command: ./TRENTO_VAH
+[INFO@376023] TRENTO_VAH finished in 0:06:15.570031 
+[INFO@376130] Max radius of freezeout surface : 7.712660
+[INFO@376130] idf  = 0
+[INFO@376142] Run iS3D and smash
+[INFO@376142] SAMPLER_AFTERBURNER started at 2021-05-28 20:01:44.589597 
+[INFO@376142] running command: ./SAMPLER_AFTERBURNER
+[INFO@883347] SAMPLER_AFTERBURNER finished in 0:08:27.204645 
+[INFO@883440] 146645 particles in 366 oversamples
+[INFO@883812] All Oversampling and Afterburners finished in 0:08:27.323634 
+[INFO@883813] Fraction of time spent in trento, fs, hydro       : 0.425385 
+[INFO@883813] Fraction of time spent in sampling, afterburning  : 0.574615 
+[INFO@883813] computing observables for delta_f = 1
+[INFO@883817] charged and abs_eta < 0.5 : 18293.0
+[INFO@883925] Reading hadron list and computing observables finished in 0:00:00.111571 
+[INFO@883926] event 0 completed successfully
+[INFO@883934] finished at 2021-05-28 20:10:12.381373, 0:14:43.544615 elapsed
+[INFO@387] started at 2021-05-28 19:55:58.863510
+[INFO@387] arguments: Namespace(logfile='/scr/logs/2113883/1036.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1036.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@388] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@450] working directory: /tmp/jetscape-2friy4w9
+[WARNING@452] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@452] starting jetscape event 0
+[INFO@452] TRENTO_VAH started at 2021-05-28 19:55:58.929093 
+[INFO@453] running command: ./TRENTO_VAH
+[INFO@477887] TRENTO_VAH finished in 0:07:57.434262 
+[INFO@478050] Max radius of freezeout surface : 7.118550
+[INFO@478050] idf  = 0
+[INFO@478062] Run iS3D and smash
+[INFO@478062] SAMPLER_AFTERBURNER started at 2021-05-28 20:03:56.538673 
+[INFO@478062] running command: ./SAMPLER_AFTERBURNER
+[INFO@1086000] SAMPLER_AFTERBURNER finished in 0:10:07.937781 
+[INFO@1086091] 144582 particles in 116 oversamples
+[INFO@1086459] All Oversampling and Afterburners finished in 0:10:08.113099 
+[INFO@1086459] Fraction of time spent in trento, fs, hydro       : 0.439810 
+[INFO@1086459] Fraction of time spent in sampling, afterburning  : 0.560190 
+[INFO@1086459] computing observables for delta_f = 1
+[INFO@1086463] charged and abs_eta < 0.5 : 18653.0
+[INFO@1086570] Reading hadron list and computing observables finished in 0:00:00.110791 
+[INFO@1086571] event 0 completed successfully
+[INFO@1086580] finished at 2021-05-28 20:14:05.056333, 0:18:06.192823 elapsed
+[INFO@374] started at 2021-05-28 19:56:03.768008
+[INFO@374] arguments: Namespace(logfile='/scr/logs/2113883/1037.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1037.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@374] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@436] working directory: /tmp/jetscape-maz8snah
+[WARNING@437] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@438] starting jetscape event 0
+[INFO@438] TRENTO_VAH started at 2021-05-28 19:56:03.832320 
+[INFO@438] running command: ./TRENTO_VAH
+[INFO@539677] TRENTO_VAH finished in 0:08:59.238877 
+[INFO@539866] Max radius of freezeout surface : 8.250770
+[INFO@539866] idf  = 0
+[INFO@539878] Run iS3D and smash
+[INFO@539878] SAMPLER_AFTERBURNER started at 2021-05-28 20:05:03.272555 
+[INFO@539878] running command: ./SAMPLER_AFTERBURNER
+[INFO@1207961] SAMPLER_AFTERBURNER finished in 0:11:08.082695 
+[INFO@1208050] 144635 particles in 78 oversamples
+[INFO@1208417] All Oversampling and Afterburners finished in 0:11:08.284053 
+[INFO@1208417] Fraction of time spent in trento, fs, hydro       : 0.446566 
+[INFO@1208418] Fraction of time spent in sampling, afterburning  : 0.553434 
+[INFO@1208418] computing observables for delta_f = 1
+[INFO@1208421] charged and abs_eta < 0.5 : 18762.0
+[INFO@1208529] Reading hadron list and computing observables finished in 0:00:00.110875 
+[INFO@1208529] event 0 completed successfully
+[INFO@1208538] finished at 2021-05-28 20:16:11.932519, 0:20:08.164511 elapsed
+[INFO@616] started at 2021-05-28 19:56:04.802799
+[INFO@617] arguments: Namespace(logfile='/scr/logs/2113883/1038.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1038.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@617] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@677] working directory: /tmp/jetscape-qals3tk7
+[WARNING@678] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@679] starting jetscape event 0
+[INFO@679] TRENTO_VAH started at 2021-05-28 19:56:04.865754 
+[INFO@679] running command: ./TRENTO_VAH
+[INFO@495708] TRENTO_VAH finished in 0:08:15.028856 
+[INFO@495896] Max radius of freezeout surface : 9.085050
+[INFO@495896] idf  = 0
+[INFO@495908] Run iS3D and smash
+[INFO@495908] SAMPLER_AFTERBURNER started at 2021-05-28 20:04:20.095088 
+[INFO@495908] running command: ./SAMPLER_AFTERBURNER
+[INFO@1161221] SAMPLER_AFTERBURNER finished in 0:11:05.312807 
+[INFO@1161313] 145707 particles in 86 oversamples
+[INFO@1161677] All Oversampling and Afterburners finished in 0:11:05.513285 
+[INFO@1161677] Fraction of time spent in trento, fs, hydro       : 0.426550 
+[INFO@1161678] Fraction of time spent in sampling, afterburning  : 0.573450 
+[INFO@1161678] computing observables for delta_f = 1
+[INFO@1161681] charged and abs_eta < 0.5 : 18957.0
+[INFO@1161789] Reading hadron list and computing observables finished in 0:00:00.111366 
+[INFO@1161790] event 0 completed successfully
+[INFO@1161799] finished at 2021-05-28 20:15:25.985339, 0:19:21.182540 elapsed
+[INFO@378] started at 2021-05-28 19:54:05.057750
+[INFO@378] arguments: Namespace(logfile='/scr/logs/2113883/1039.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1039.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@379] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@440] working directory: /tmp/jetscape-c_u25n91
+[WARNING@441] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@441] starting jetscape event 0
+[INFO@442] TRENTO_VAH started at 2021-05-28 19:54:05.121920 
+[INFO@442] running command: ./TRENTO_VAH
+[INFO@296538] TRENTO_VAH finished in 0:04:56.096206 
+[INFO@296608] Max radius of freezeout surface : 5.403240
+[INFO@296608] idf  = 0
+[INFO@296620] Run iS3D and smash
+[INFO@296620] SAMPLER_AFTERBURNER started at 2021-05-28 19:59:01.300336 
+[INFO@296620] running command: ./SAMPLER_AFTERBURNER
+[INFO@736551] SAMPLER_AFTERBURNER finished in 0:07:19.930962 
+[INFO@736643] 148017 particles in 626 oversamples
+[INFO@737021] All Oversampling and Afterburners finished in 0:07:20.013172 
+[INFO@737021] Fraction of time spent in trento, fs, hydro       : 0.402245 
+[INFO@737021] Fraction of time spent in sampling, afterburning  : 0.597755 
+[INFO@737022] computing observables for delta_f = 1
+[INFO@737025] charged and abs_eta < 0.5 : 18620.0
+[INFO@737132] Reading hadron list and computing observables finished in 0:00:00.110426 
+[INFO@737132] event 0 completed successfully
+[INFO@737141] finished at 2021-05-28 20:06:21.820979, 0:12:16.763229 elapsed
+[INFO@384] started at 2021-05-28 19:35:19.781037
+[INFO@384] arguments: Namespace(logfile='/scr/logs/2113883/103.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/103.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@385] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@445] working directory: /tmp/jetscape-ej8crikh
+[WARNING@446] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@446] starting jetscape event 0
+[INFO@447] TRENTO_VAH started at 2021-05-28 19:35:19.843801 
+[INFO@447] running command: ./TRENTO_VAH
+[INFO@346753] TRENTO_VAH finished in 0:05:46.306163 
+[INFO@346852] Max radius of freezeout surface : 7.658450
+[INFO@346852] idf  = 0
+[INFO@346863] Run iS3D and smash
+[INFO@346864] SAMPLER_AFTERBURNER started at 2021-05-28 19:41:06.260834 
+[INFO@346864] running command: ./SAMPLER_AFTERBURNER
+[INFO@838382] SAMPLER_AFTERBURNER finished in 0:08:11.518355 
+[INFO@838473] 146129 particles in 308 oversamples
+[INFO@838850] All Oversampling and Afterburners finished in 0:08:11.629225 
+[INFO@838850] Fraction of time spent in trento, fs, hydro       : 0.413285 
+[INFO@838851] Fraction of time spent in sampling, afterburning  : 0.586715 
+[INFO@838851] computing observables for delta_f = 1
+[INFO@838854] charged and abs_eta < 0.5 : 18596.0
+[INFO@838962] Reading hadron list and computing observables finished in 0:00:00.111429 
+[INFO@838963] event 0 completed successfully
+[INFO@838971] finished at 2021-05-28 19:49:18.368521, 0:13:58.587484 elapsed
+[INFO@388] started at 2021-05-28 19:56:11.205408
+[INFO@389] arguments: Namespace(logfile='/scr/logs/2113883/1040.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1040.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@389] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@454] working directory: /tmp/jetscape-09uoe8km
+[WARNING@455] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@456] starting jetscape event 0
+[INFO@456] TRENTO_VAH started at 2021-05-28 19:56:11.273132 
+[INFO@456] running command: ./TRENTO_VAH
+[INFO@192625] TRENTO_VAH finished in 0:03:12.168597 
+[INFO@192664] Max radius of freezeout surface : 5.346750
+[INFO@192664] idf  = 0
+[INFO@192676] Run iS3D and smash
+[INFO@192676] SAMPLER_AFTERBURNER started at 2021-05-28 19:59:23.492788 
+[INFO@192676] running command: ./SAMPLER_AFTERBURNER
+[INFO@360687] SAMPLER_AFTERBURNER finished in 0:02:48.010728 
+[INFO@360724] 43606 particles in 1000 oversamples
+[INFO@360834] All Oversampling and Afterburners finished in 0:02:48.061787 
+[INFO@360834] Fraction of time spent in trento, fs, hydro       : 0.533460 
+[INFO@360835] Fraction of time spent in sampling, afterburning  : 0.466540 
+[INFO@360835] computing observables for delta_f = 1
+[INFO@360837] charged and abs_eta < 0.5 : 5101.0
+[INFO@360872] Reading hadron list and computing observables finished in 0:00:00.036364 
+[INFO@360872] event 0 completed successfully
+[INFO@360878] finished at 2021-05-28 20:02:11.694641, 0:06:00.489233 elapsed
+[INFO@380] started at 2021-05-28 19:55:53.378432
+[INFO@381] arguments: Namespace(logfile='/scr/logs/2113883/1041.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1041.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@381] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@443] working directory: /tmp/jetscape-danymhfp
+[WARNING@444] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@445] starting jetscape event 0
+[INFO@445] TRENTO_VAH started at 2021-05-28 19:55:53.443150 
+[INFO@445] running command: ./TRENTO_VAH
+[INFO@539541] TRENTO_VAH finished in 0:08:59.096074 
+[INFO@539746] Max radius of freezeout surface : 7.965320
+[INFO@539746] idf  = 0
+[INFO@539758] Run iS3D and smash
+[INFO@539758] SAMPLER_AFTERBURNER started at 2021-05-28 20:04:52.756350 
+[INFO@539758] running command: ./SAMPLER_AFTERBURNER
+[INFO@1221394] SAMPLER_AFTERBURNER finished in 0:11:21.636211 
+[INFO@1221487] 146893 particles in 79 oversamples
+[INFO@1221858] All Oversampling and Afterburners finished in 0:11:21.853337 
+[INFO@1221858] Fraction of time spent in trento, fs, hydro       : 0.441538 
+[INFO@1221859] Fraction of time spent in sampling, afterburning  : 0.558462 
+[INFO@1221859] computing observables for delta_f = 1
+[INFO@1221862] charged and abs_eta < 0.5 : 19021.0
+[INFO@1221974] Reading hadron list and computing observables finished in 0:00:00.114528 
+[INFO@1221974] event 0 completed successfully
+[INFO@1221983] finished at 2021-05-28 20:16:14.981519, 0:20:21.603087 elapsed
+[INFO@384] started at 2021-05-28 19:56:17.207112
+[INFO@384] arguments: Namespace(logfile='/scr/logs/2113883/1042.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1042.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@385] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@446] working directory: /tmp/jetscape-rd2pf3hc
+[WARNING@448] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@448] starting jetscape event 0
+[INFO@448] TRENTO_VAH started at 2021-05-28 19:56:17.271821 
+[INFO@448] running command: ./TRENTO_VAH
+[INFO@861164] TRENTO_VAH finished in 0:14:20.716044 
+[INFO@861638] Max radius of freezeout surface : 11.001600
+[INFO@861638] idf  = 0
+[INFO@861650] Run iS3D and smash
+[INFO@861650] SAMPLER_AFTERBURNER started at 2021-05-28 20:10:38.473642 
+[INFO@861650] running command: ./SAMPLER_AFTERBURNER
+[INFO@2084627] SAMPLER_AFTERBURNER finished in 0:20:22.976674 
+[INFO@2084722] 152443 particles in 17 oversamples
+[INFO@2085107] All Oversampling and Afterburners finished in 0:20:23.462451 
+[INFO@2085107] Fraction of time spent in trento, fs, hydro       : 0.412976 
+[INFO@2085108] Fraction of time spent in sampling, afterburning  : 0.587024 
+[INFO@2085108] computing observables for delta_f = 1
+[INFO@2085111] charged and abs_eta < 0.5 : 20277.0
+[INFO@2085225] Reading hadron list and computing observables finished in 0:00:00.117178 
+[INFO@2085225] event 0 completed successfully
+[INFO@2085236] finished at 2021-05-28 20:31:02.059839, 0:34:44.852727 elapsed
+[INFO@380] started at 2021-05-28 19:56:20.587778
+[INFO@380] arguments: Namespace(logfile='/scr/logs/2113883/1043.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1043.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@380] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@443] working directory: /tmp/jetscape-4o1w36gq
+[WARNING@444] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@445] starting jetscape event 0
+[INFO@445] TRENTO_VAH started at 2021-05-28 19:56:20.653308 
+[INFO@445] running command: ./TRENTO_VAH
+[INFO@348039] TRENTO_VAH finished in 0:05:47.594117 
+[INFO@348145] Max radius of freezeout surface : 6.090540
+[INFO@348146] idf  = 0
+[INFO@348157] Run iS3D and smash
+[INFO@348157] SAMPLER_AFTERBURNER started at 2021-05-28 20:02:08.365597 
+[INFO@348157] running command: ./SAMPLER_AFTERBURNER
+[INFO@840987] SAMPLER_AFTERBURNER finished in 0:08:12.830064 
+[INFO@841078] 146877 particles in 297 oversamples
+[INFO@841462] All Oversampling and Afterburners finished in 0:08:12.948236 
+[INFO@841462] Fraction of time spent in trento, fs, hydro       : 0.413536 
+[INFO@841463] Fraction of time spent in sampling, afterburning  : 0.586464 
+[INFO@841463] computing observables for delta_f = 1
+[INFO@841466] charged and abs_eta < 0.5 : 18482.0
+[INFO@841576] Reading hadron list and computing observables finished in 0:00:00.113084 
+[INFO@841577] event 0 completed successfully
+[INFO@841586] finished at 2021-05-28 20:10:21.793855, 0:14:01.206077 elapsed
+[INFO@383] started at 2021-05-28 19:56:05.057990
+[INFO@384] arguments: Namespace(logfile='/scr/logs/2113883/1044.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1044.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@384] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@445] working directory: /tmp/jetscape-hlmukkdk
+[WARNING@446] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@446] starting jetscape event 0
+[INFO@447] TRENTO_VAH started at 2021-05-28 19:56:05.121319 
+[INFO@447] running command: ./TRENTO_VAH
+[INFO@571793] TRENTO_VAH finished in 0:09:31.346300 
+[INFO@572017] Max radius of freezeout surface : 8.757690
+[INFO@572017] idf  = 0
+[INFO@572029] Run iS3D and smash
+[INFO@572029] SAMPLER_AFTERBURNER started at 2021-05-28 20:05:36.703896 
+[INFO@572029] running command: ./SAMPLER_AFTERBURNER
+[INFO@1306670] SAMPLER_AFTERBURNER finished in 0:12:14.640673 
+[INFO@1306763] 145928 particles in 62 oversamples
+[INFO@1307139] All Oversampling and Afterburners finished in 0:12:14.876950 
+[INFO@1307139] Fraction of time spent in trento, fs, hydro       : 0.437403 
+[INFO@1307140] Fraction of time spent in sampling, afterburning  : 0.562597 
+[INFO@1307140] computing observables for delta_f = 1
+[INFO@1307143] charged and abs_eta < 0.5 : 18835.0
+[INFO@1307253] Reading hadron list and computing observables finished in 0:00:00.112969 
+[INFO@1307253] event 0 completed successfully
+[INFO@1307263] finished at 2021-05-28 20:17:51.937731, 0:21:46.879741 elapsed
+[INFO@377] started at 2021-05-28 19:56:25.029746
+[INFO@378] arguments: Namespace(logfile='/scr/logs/2113883/1045.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1045.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@378] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@440] working directory: /tmp/jetscape-rmj64evx
+[WARNING@441] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@441] starting jetscape event 0
+[INFO@442] TRENTO_VAH started at 2021-05-28 19:56:25.094292 
+[INFO@442] running command: ./TRENTO_VAH
+[INFO@622715] TRENTO_VAH finished in 0:10:22.273075 
+[INFO@622982] Max radius of freezeout surface : 9.939320
+[INFO@622982] idf  = 0
+[INFO@622993] Run iS3D and smash
+[INFO@622994] SAMPLER_AFTERBURNER started at 2021-05-28 20:06:47.646143 
+[INFO@622994] running command: ./SAMPLER_AFTERBURNER
+[INFO@1440909] SAMPLER_AFTERBURNER finished in 0:13:37.915727 
+[INFO@1441000] 145821 particles in 42 oversamples
+[INFO@1441376] All Oversampling and Afterburners finished in 0:13:38.194503 
+[INFO@1441376] Fraction of time spent in trento, fs, hydro       : 0.431994 
+[INFO@1441377] Fraction of time spent in sampling, afterburning  : 0.568006 
+[INFO@1441377] computing observables for delta_f = 1
+[INFO@1441380] charged and abs_eta < 0.5 : 18905.0
+[INFO@1441492] Reading hadron list and computing observables finished in 0:00:00.114652 
+[INFO@1441492] event 0 completed successfully
+[INFO@1441502] finished at 2021-05-28 20:20:26.154346, 0:24:01.124600 elapsed
+[INFO@378] started at 2021-05-28 19:56:27.277707
+[INFO@379] arguments: Namespace(logfile='/scr/logs/2113883/1046.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1046.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@380] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@441] working directory: /tmp/jetscape-84zrd9xb
+[WARNING@442] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@443] starting jetscape event 0
+[INFO@443] TRENTO_VAH started at 2021-05-28 19:56:27.342248 
+[INFO@443] running command: ./TRENTO_VAH
+[INFO@613718] TRENTO_VAH finished in 0:10:13.275031 
+[INFO@613972] Max radius of freezeout surface : 10.681700
+[INFO@613972] idf  = 0
+[INFO@613984] Run iS3D and smash
+[INFO@613984] SAMPLER_AFTERBURNER started at 2021-05-28 20:06:40.883111 
+[INFO@613984] running command: ./SAMPLER_AFTERBURNER
+[INFO@1405402] SAMPLER_AFTERBURNER finished in 0:13:11.418530 
+[INFO@1405495] 145988 particles in 51 oversamples
+[INFO@1405869] All Oversampling and Afterburners finished in 0:13:11.684362 
+[INFO@1405869] Fraction of time spent in trento, fs, hydro       : 0.436507 
+[INFO@1405870] Fraction of time spent in sampling, afterburning  : 0.563493 
+[INFO@1405870] computing observables for delta_f = 1
+[INFO@1405873] charged and abs_eta < 0.5 : 18999.0
+[INFO@1405981] Reading hadron list and computing observables finished in 0:00:00.111364 
+[INFO@1405982] event 0 completed successfully
+[INFO@1405992] finished at 2021-05-28 20:19:52.890984, 0:23:25.613277 elapsed
+[INFO@388] started at 2021-05-28 19:56:17.054613
+[INFO@389] arguments: Namespace(logfile='/scr/logs/2113883/1047.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1047.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@389] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@454] working directory: /tmp/jetscape-4mmmlpog
+[WARNING@455] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@455] starting jetscape event 0
+[INFO@456] TRENTO_VAH started at 2021-05-28 19:56:17.121764 
+[INFO@456] running command: ./TRENTO_VAH
+[INFO@598551] TRENTO_VAH finished in 0:09:58.095129 
+[INFO@598785] Max radius of freezeout surface : 8.497240
+[INFO@598786] idf  = 0
+[INFO@598798] Run iS3D and smash
+[INFO@598798] SAMPLER_AFTERBURNER started at 2021-05-28 20:06:15.463930 
+[INFO@598798] running command: ./SAMPLER_AFTERBURNER
+[INFO@1372096] SAMPLER_AFTERBURNER finished in 0:12:53.298237 
+[INFO@1372188] 147067 particles in 60 oversamples
+[INFO@1372558] All Oversampling and Afterburners finished in 0:12:53.545274 
+[INFO@1372558] Fraction of time spent in trento, fs, hydro       : 0.436044 
+[INFO@1372559] Fraction of time spent in sampling, afterburning  : 0.563956 
+[INFO@1372559] computing observables for delta_f = 1
+[INFO@1372562] charged and abs_eta < 0.5 : 19013.0
+[INFO@1372673] Reading hadron list and computing observables finished in 0:00:00.114010 
+[INFO@1372674] event 0 completed successfully
+[INFO@1372684] finished at 2021-05-28 20:19:09.350280, 0:22:52.295667 elapsed
+[INFO@387] started at 2021-05-28 19:56:30.887233
+[INFO@387] arguments: Namespace(logfile='/scr/logs/2113883/1048.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1048.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@388] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@449] working directory: /tmp/jetscape-ztcxczsq
+[WARNING@451] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@451] starting jetscape event 0
+[INFO@451] TRENTO_VAH started at 2021-05-28 19:56:30.952072 
+[INFO@452] running command: ./TRENTO_VAH
+[INFO@674411] TRENTO_VAH finished in 0:11:13.959929 
+[INFO@674709] Max radius of freezeout surface : 9.345580
+[INFO@674709] idf  = 0
+[INFO@674721] Run iS3D and smash
+[INFO@674721] SAMPLER_AFTERBURNER started at 2021-05-28 20:07:45.221937 
+[INFO@674721] running command: ./SAMPLER_AFTERBURNER
+[INFO@1571112] SAMPLER_AFTERBURNER finished in 0:14:56.391010 
+[INFO@1571208] 146891 particles in 35 oversamples
+[INFO@1571589] All Oversampling and Afterburners finished in 0:14:56.700946 
+[INFO@1571590] Fraction of time spent in trento, fs, hydro       : 0.429093 
+[INFO@1571590] Fraction of time spent in sampling, afterburning  : 0.570907 
+[INFO@1571590] computing observables for delta_f = 1
+[INFO@1571593] charged and abs_eta < 0.5 : 19011.0
+[INFO@1571703] Reading hadron list and computing observables finished in 0:00:00.112375 
+[INFO@1571703] event 0 completed successfully
+[INFO@1571713] finished at 2021-05-28 20:22:42.213506, 0:26:11.326273 elapsed
+[INFO@378] started at 2021-05-28 19:56:31.162909
+[INFO@379] arguments: Namespace(logfile='/scr/logs/2113883/1049.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1049.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@379] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@441] working directory: /tmp/jetscape-_xhr8wl8
+[WARNING@442] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@442] starting jetscape event 0
+[INFO@443] TRENTO_VAH started at 2021-05-28 19:56:31.227493 
+[INFO@443] running command: ./TRENTO_VAH
+[INFO@873104] TRENTO_VAH finished in 0:14:32.660890 
+[INFO@873626] Max radius of freezeout surface : 12.382200
+[INFO@873626] idf  = 0
+[INFO@873637] Run iS3D and smash
+[INFO@873637] SAMPLER_AFTERBURNER started at 2021-05-28 20:11:04.421890 
+[INFO@873637] running command: ./SAMPLER_AFTERBURNER
+[INFO@2174723] SAMPLER_AFTERBURNER finished in 0:21:41.085922 
+[INFO@2174818] 153200 particles in 15 oversamples
+[INFO@2175214] All Oversampling and Afterburners finished in 0:21:41.619429 
+[INFO@2175215] Fraction of time spent in trento, fs, hydro       : 0.401356 
+[INFO@2175215] Fraction of time spent in sampling, afterburning  : 0.598644 
+[INFO@2175215] computing observables for delta_f = 1
+[INFO@2175219] charged and abs_eta < 0.5 : 20330.0
+[INFO@2175334] Reading hadron list and computing observables finished in 0:00:00.118563 
+[INFO@2175335] event 0 completed successfully
+[INFO@2175346] finished at 2021-05-28 20:32:46.130348, 0:36:14.967439 elapsed
+[INFO@380] started at 2021-05-28 19:35:20.723328
+[INFO@381] arguments: Namespace(logfile='/scr/logs/2113883/104.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/104.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@381] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@443] working directory: /tmp/jetscape-2c1iets_
+[WARNING@444] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@445] starting jetscape event 0
+[INFO@445] TRENTO_VAH started at 2021-05-28 19:35:20.787996 
+[INFO@445] running command: ./TRENTO_VAH
+[INFO@334487] TRENTO_VAH finished in 0:05:34.042277 
+[INFO@334584] Max radius of freezeout surface : 6.580290
+[INFO@334584] idf  = 0
+[INFO@334596] Run iS3D and smash
+[INFO@334597] SAMPLER_AFTERBURNER started at 2021-05-28 19:40:54.939509 
+[INFO@334597] running command: ./SAMPLER_AFTERBURNER
+[INFO@830827] SAMPLER_AFTERBURNER finished in 0:08:16.230726 
+[INFO@830920] 147019 particles in 398 oversamples
+[INFO@831300] All Oversampling and Afterburners finished in 0:08:16.339962 
+[INFO@831300] Fraction of time spent in trento, fs, hydro       : 0.402275 
+[INFO@831301] Fraction of time spent in sampling, afterburning  : 0.597725 
+[INFO@831301] computing observables for delta_f = 1
+[INFO@831304] charged and abs_eta < 0.5 : 18786.0
+[INFO@831415] Reading hadron list and computing observables finished in 0:00:00.114462 
+[INFO@831416] event 0 completed successfully
+[INFO@831425] finished at 2021-05-28 19:49:11.767460, 0:13:51.044132 elapsed
+[INFO@371] started at 2021-05-28 19:56:33.136856
+[INFO@372] arguments: Namespace(logfile='/scr/logs/2113883/1050.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1050.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@372] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@433] working directory: /tmp/jetscape-vdi0is4j
+[WARNING@434] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@434] starting jetscape event 0
+[INFO@435] TRENTO_VAH started at 2021-05-28 19:56:33.200278 
+[INFO@435] running command: ./TRENTO_VAH
+[INFO@899716] TRENTO_VAH finished in 0:14:59.281642 
+[INFO@900278] Max radius of freezeout surface : 12.005000
+[INFO@900278] idf  = 0
+[INFO@900290] Run iS3D and smash
+[INFO@900290] SAMPLER_AFTERBURNER started at 2021-05-28 20:11:33.055413 
+[INFO@900290] running command: ./SAMPLER_AFTERBURNER
+[INFO@2271196] SAMPLER_AFTERBURNER finished in 0:22:50.905736 
+[INFO@2271291] 151044 particles in 13 oversamples
+[INFO@2271680] All Oversampling and Afterburners finished in 0:22:51.479229 
+[INFO@2271680] Fraction of time spent in trento, fs, hydro       : 0.396027 
+[INFO@2271681] Fraction of time spent in sampling, afterburning  : 0.603973 
+[INFO@2271681] computing observables for delta_f = 1
+[INFO@2271684] charged and abs_eta < 0.5 : 20053.0
+[INFO@2271799] Reading hadron list and computing observables finished in 0:00:00.118170 
+[INFO@2271799] event 0 completed successfully
+[INFO@2271811] finished at 2021-05-28 20:34:24.576902, 0:37:51.440046 elapsed
+[INFO@375] started at 2021-05-28 19:56:36.573642
+[INFO@376] arguments: Namespace(logfile='/scr/logs/2113883/1051.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1051.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@376] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@436] working directory: /tmp/jetscape-9jni5255
+[WARNING@438] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@438] starting jetscape event 0
+[INFO@438] TRENTO_VAH started at 2021-05-28 19:56:36.636556 
+[INFO@438] running command: ./TRENTO_VAH
+[INFO@750312] TRENTO_VAH finished in 0:12:29.873503 
+[INFO@750668] Max radius of freezeout surface : 9.828290
+[INFO@750668] idf  = 0
+[INFO@750679] Run iS3D and smash
+[INFO@750679] SAMPLER_AFTERBURNER started at 2021-05-28 20:09:06.877560 
+[INFO@750679] running command: ./SAMPLER_AFTERBURNER
+[INFO@1742769] SAMPLER_AFTERBURNER finished in 0:16:32.089910 
+[INFO@1742862] 145453 particles in 25 oversamples
+[INFO@1743238] All Oversampling and Afterburners finished in 0:16:32.457411 
+[INFO@1743238] Fraction of time spent in trento, fs, hydro       : 0.430385 
+[INFO@1743239] Fraction of time spent in sampling, afterburning  : 0.569615 
+[INFO@1743239] computing observables for delta_f = 1
+[INFO@1743242] charged and abs_eta < 0.5 : 19276.0
+[INFO@1743353] Reading hadron list and computing observables finished in 0:00:00.114611 
+[INFO@1743354] event 0 completed successfully
+[INFO@1743364] finished at 2021-05-28 20:25:39.562295, 0:29:02.988653 elapsed
+[INFO@375] started at 2021-05-28 19:56:38.685639
+[INFO@376] arguments: Namespace(logfile='/scr/logs/2113883/1052.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1052.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@376] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@438] working directory: /tmp/jetscape-rpyovioz
+[WARNING@440] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@440] starting jetscape event 0
+[INFO@440] TRENTO_VAH started at 2021-05-28 19:56:38.750584 
+[INFO@440] running command: ./TRENTO_VAH
+[INFO@802370] TRENTO_VAH finished in 0:13:21.930007 
+[INFO@802807] Max radius of freezeout surface : 11.031200
+[INFO@802808] idf  = 0
+[INFO@802820] Run iS3D and smash
+[INFO@802820] SAMPLER_AFTERBURNER started at 2021-05-28 20:10:01.130267 
+[INFO@802820] running command: ./SAMPLER_AFTERBURNER
+[INFO@1952454] SAMPLER_AFTERBURNER finished in 0:19:09.633974 
+[INFO@1952548] 146810 particles in 19 oversamples
+[INFO@1952914] All Oversampling and Afterburners finished in 0:19:10.083650 
+[INFO@1952914] Fraction of time spent in trento, fs, hydro       : 0.410822 
+[INFO@1952914] Fraction of time spent in sampling, afterburning  : 0.589178 
+[INFO@1952914] computing observables for delta_f = 1
+[INFO@1952917] charged and abs_eta < 0.5 : 19275.0
+[INFO@1953027] Reading hadron list and computing observables finished in 0:00:00.112287 
+[INFO@1953027] event 0 completed successfully
+[INFO@1953038] finished at 2021-05-28 20:29:11.348006, 0:32:32.662367 elapsed
+[INFO@375] started at 2021-05-28 19:56:38.883928
+[INFO@376] arguments: Namespace(logfile='/scr/logs/2113883/1053.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1053.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@376] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@437] working directory: /tmp/jetscape-isgz92ef
+[WARNING@438] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@438] starting jetscape event 0
+[INFO@439] TRENTO_VAH started at 2021-05-28 19:56:38.947297 
+[INFO@439] running command: ./TRENTO_VAH
+[INFO@758783] TRENTO_VAH finished in 0:12:38.343910 
+[INFO@759159] Max radius of freezeout surface : 10.175800
+[INFO@759160] idf  = 0
+[INFO@759171] Run iS3D and smash
+[INFO@759171] SAMPLER_AFTERBURNER started at 2021-05-28 20:09:17.679878 
+[INFO@759171] running command: ./SAMPLER_AFTERBURNER
+[INFO@1774686] SAMPLER_AFTERBURNER finished in 0:16:55.514303 
+[INFO@1774780] 149463 particles in 24 oversamples
+[INFO@1775162] All Oversampling and Afterburners finished in 0:16:55.902974 
+[INFO@1775162] Fraction of time spent in trento, fs, hydro       : 0.427417 
+[INFO@1775163] Fraction of time spent in sampling, afterburning  : 0.572583 
+[INFO@1775163] computing observables for delta_f = 1
+[INFO@1775166] charged and abs_eta < 0.5 : 19843.0
+[INFO@1775278] Reading hadron list and computing observables finished in 0:00:00.115378 
+[INFO@1775279] event 0 completed successfully
+[INFO@1775289] finished at 2021-05-28 20:26:13.798181, 0:29:34.914253 elapsed
+[INFO@377] started at 2021-05-28 19:56:39.179239
+[INFO@378] arguments: Namespace(logfile='/scr/logs/2113883/1054.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1054.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@378] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@439] working directory: /tmp/jetscape-cogn0e68
+[WARNING@440] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@440] starting jetscape event 0
+[INFO@441] TRENTO_VAH started at 2021-05-28 19:56:39.242735 
+[INFO@441] running command: ./TRENTO_VAH
+[INFO@613335] TRENTO_VAH finished in 0:10:12.894212 
+[INFO@613611] Max radius of freezeout surface : 9.961360
+[INFO@613611] idf  = 0
+[INFO@613623] Run iS3D and smash
+[INFO@613623] SAMPLER_AFTERBURNER started at 2021-05-28 20:06:52.424845 
+[INFO@613623] running command: ./SAMPLER_AFTERBURNER
+[INFO@1462709] SAMPLER_AFTERBURNER finished in 0:14:09.086245 
+[INFO@1462804] 148488 particles in 40 oversamples
+[INFO@1463189] All Oversampling and Afterburners finished in 0:14:09.374143 
+[INFO@1463189] Fraction of time spent in trento, fs, hydro       : 0.419139 
+[INFO@1463189] Fraction of time spent in sampling, afterburning  : 0.580861 
+[INFO@1463190] computing observables for delta_f = 1
+[INFO@1463193] charged and abs_eta < 0.5 : 19536.0
+[INFO@1463303] Reading hadron list and computing observables finished in 0:00:00.113395 
+[INFO@1463303] event 0 completed successfully
+[INFO@1463314] finished at 2021-05-28 20:21:02.116036, 0:24:22.936797 elapsed
+[INFO@370] started at 2021-05-28 19:56:43.207428
+[INFO@370] arguments: Namespace(logfile='/scr/logs/2113883/1055.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1055.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@371] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@431] working directory: /tmp/jetscape-64sqieho
+[WARNING@432] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@433] starting jetscape event 0
+[INFO@433] TRENTO_VAH started at 2021-05-28 19:56:43.270411 
+[INFO@433] running command: ./TRENTO_VAH
+[INFO@521942] TRENTO_VAH finished in 0:08:41.508778 
+[INFO@522131] Max radius of freezeout surface : 8.687180
+[INFO@522132] idf  = 0
+[INFO@522143] Run iS3D and smash
+[INFO@522143] SAMPLER_AFTERBURNER started at 2021-05-28 20:05:24.980835 
+[INFO@522143] running command: ./SAMPLER_AFTERBURNER
+[INFO@1207784] SAMPLER_AFTERBURNER finished in 0:11:25.640933 
+[INFO@1207875] 146292 particles in 90 oversamples
+[INFO@1208247] All Oversampling and Afterburners finished in 0:11:25.842579 
+[INFO@1208247] Fraction of time spent in trento, fs, hydro       : 0.431944 
+[INFO@1208248] Fraction of time spent in sampling, afterburning  : 0.568056 
+[INFO@1208248] computing observables for delta_f = 1
+[INFO@1208251] charged and abs_eta < 0.5 : 18644.0
+[INFO@1208357] Reading hadron list and computing observables finished in 0:00:00.109259 
+[INFO@1208358] event 0 completed successfully
+[INFO@1208367] finished at 2021-05-28 20:16:51.204497, 0:20:07.997069 elapsed
+[INFO@387] started at 2021-05-28 19:56:43.358819
+[INFO@388] arguments: Namespace(logfile='/scr/logs/2113883/1056.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1056.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@388] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@452] working directory: /tmp/jetscape-frr8pfxh
+[WARNING@454] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@454] starting jetscape event 0
+[INFO@454] TRENTO_VAH started at 2021-05-28 19:56:43.426220 
+[INFO@455] running command: ./TRENTO_VAH
+[INFO@560641] TRENTO_VAH finished in 0:09:20.186044 
+[INFO@560855] Max radius of freezeout surface : 8.791270
+[INFO@560855] idf  = 0
+[INFO@560867] Run iS3D and smash
+[INFO@560867] SAMPLER_AFTERBURNER started at 2021-05-28 20:06:03.838782 
+[INFO@560867] running command: ./SAMPLER_AFTERBURNER
+[INFO@1288567] SAMPLER_AFTERBURNER finished in 0:12:07.699535 
+[INFO@1288659] 146320 particles in 66 oversamples
+[INFO@1289032] All Oversampling and Afterburners finished in 0:12:07.926053 
+[INFO@1289032] Fraction of time spent in trento, fs, hydro       : 0.434889 
+[INFO@1289033] Fraction of time spent in sampling, afterburning  : 0.565111 
+[INFO@1289033] computing observables for delta_f = 1
+[INFO@1289036] charged and abs_eta < 0.5 : 18897.0
+[INFO@1289146] Reading hadron list and computing observables finished in 0:00:00.113210 
+[INFO@1289147] event 0 completed successfully
+[INFO@1289156] finished at 2021-05-28 20:18:12.127605, 0:21:28.768786 elapsed
+[INFO@380] started at 2021-05-28 19:56:46.019185
+[INFO@381] arguments: Namespace(logfile='/scr/logs/2113883/1057.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1057.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@381] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@443] working directory: /tmp/jetscape-nxogj5x0
+[WARNING@444] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@444] starting jetscape event 0
+[INFO@445] TRENTO_VAH started at 2021-05-28 19:56:46.083637 
+[INFO@445] running command: ./TRENTO_VAH
+[INFO@596418] TRENTO_VAH finished in 0:09:55.973006 
+[INFO@596657] Max radius of freezeout surface : 9.160260
+[INFO@596657] idf  = 0
+[INFO@596670] Run iS3D and smash
+[INFO@596670] SAMPLER_AFTERBURNER started at 2021-05-28 20:06:42.308863 
+[INFO@596670] running command: ./SAMPLER_AFTERBURNER
+[INFO@1354903] SAMPLER_AFTERBURNER finished in 0:12:38.232865 
+[INFO@1354995] 145231 particles in 55 oversamples
+[INFO@1355366] All Oversampling and Afterburners finished in 0:12:38.485085 
+[INFO@1355366] Fraction of time spent in trento, fs, hydro       : 0.440008 
+[INFO@1355366] Fraction of time spent in sampling, afterburning  : 0.559992 
+[INFO@1355367] computing observables for delta_f = 1
+[INFO@1355370] charged and abs_eta < 0.5 : 18899.0
+[INFO@1355478] Reading hadron list and computing observables finished in 0:00:00.111490 
+[INFO@1355479] event 0 completed successfully
+[INFO@1355488] finished at 2021-05-28 20:19:21.127251, 0:22:35.108066 elapsed
+[INFO@381] started at 2021-05-28 19:56:29.570834
+[INFO@382] arguments: Namespace(logfile='/scr/logs/2113883/1058.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1058.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@382] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@443] working directory: /tmp/jetscape-sddygkiy
+[WARNING@444] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@444] starting jetscape event 0
+[INFO@445] TRENTO_VAH started at 2021-05-28 19:56:29.634503 
+[INFO@445] running command: ./TRENTO_VAH
+[INFO@499952] TRENTO_VAH finished in 0:08:19.507203 
+[INFO@500127] Max radius of freezeout surface : 8.309840
+[INFO@500127] idf  = 0
+[INFO@500140] Run iS3D and smash
+[INFO@500141] SAMPLER_AFTERBURNER started at 2021-05-28 20:04:49.330285 
+[INFO@500141] running command: ./SAMPLER_AFTERBURNER
+[INFO@1143145] SAMPLER_AFTERBURNER finished in 0:10:43.004283 
+[INFO@1143238] 145625 particles in 105 oversamples
+[INFO@1143605] All Oversampling and Afterburners finished in 0:10:43.192862 
+[INFO@1143605] Fraction of time spent in trento, fs, hydro       : 0.437129 
+[INFO@1143606] Fraction of time spent in sampling, afterburning  : 0.562871 
+[INFO@1143606] computing observables for delta_f = 1
+[INFO@1143609] charged and abs_eta < 0.5 : 18679.0
+[INFO@1143718] Reading hadron list and computing observables finished in 0:00:00.111960 
+[INFO@1143719] event 0 completed successfully
+[INFO@1143728] finished at 2021-05-28 20:15:32.917859, 0:19:03.347025 elapsed
+[INFO@375] started at 2021-05-28 19:56:47.164502
+[INFO@375] arguments: Namespace(logfile='/scr/logs/2113883/1059.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1059.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@376] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@436] working directory: /tmp/jetscape-6mlb1tkr
+[WARNING@437] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@437] starting jetscape event 0
+[INFO@438] TRENTO_VAH started at 2021-05-28 19:56:47.227420 
+[INFO@438] running command: ./TRENTO_VAH
+[INFO@542778] TRENTO_VAH finished in 0:09:02.339965 
+[INFO@542985] Max radius of freezeout surface : 8.334920
+[INFO@542986] idf  = 0
+[INFO@542997] Run iS3D and smash
+[INFO@542998] SAMPLER_AFTERBURNER started at 2021-05-28 20:05:49.787357 
+[INFO@542998] running command: ./SAMPLER_AFTERBURNER
+[INFO@1247433] SAMPLER_AFTERBURNER finished in 0:11:44.435475 
+[INFO@1247546] 147268 particles in 71 oversamples
+[INFO@1247917] All Oversampling and Afterburners finished in 0:11:44.655447 
+[INFO@1247918] Fraction of time spent in trento, fs, hydro       : 0.434917 
+[INFO@1247918] Fraction of time spent in sampling, afterburning  : 0.565083 
+[INFO@1247918] computing observables for delta_f = 1
+[INFO@1247921] charged and abs_eta < 0.5 : 18784.0
+[INFO@1248031] Reading hadron list and computing observables finished in 0:00:00.112827 
+[INFO@1248032] event 0 completed successfully
+[INFO@1248041] finished at 2021-05-28 20:17:34.831088, 0:20:47.666586 elapsed
+[INFO@373] started at 2021-05-28 19:35:21.581568
+[INFO@374] arguments: Namespace(logfile='/scr/logs/2113883/105.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/105.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@374] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@432] working directory: /tmp/jetscape-8cidlr65
+[WARNING@434] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@434] starting jetscape event 0
+[INFO@434] TRENTO_VAH started at 2021-05-28 19:35:21.642448 
+[INFO@434] running command: ./TRENTO_VAH
+[INFO@663493] TRENTO_VAH finished in 0:11:03.058497 
+[INFO@663785] Max radius of freezeout surface : 10.407800
+[INFO@663785] idf  = 0
+[INFO@663797] Run iS3D and smash
+[INFO@663797] SAMPLER_AFTERBURNER started at 2021-05-28 19:46:25.005534 
+[INFO@663797] running command: ./SAMPLER_AFTERBURNER
+[INFO@1557600] SAMPLER_AFTERBURNER finished in 0:14:53.802759 
+[INFO@1557697] 148049 particles in 42 oversamples
+[INFO@1558069] All Oversampling and Afterburners finished in 0:14:54.107348 
+[INFO@1558069] Fraction of time spent in trento, fs, hydro       : 0.425811 
+[INFO@1558069] Fraction of time spent in sampling, afterburning  : 0.574189 
+[INFO@1558069] computing observables for delta_f = 1
+[INFO@1558073] charged and abs_eta < 0.5 : 19196.0
+[INFO@1558186] Reading hadron list and computing observables finished in 0:00:00.116665 
+[INFO@1558187] event 0 completed successfully
+[INFO@1558197] finished at 2021-05-28 20:01:19.404818, 0:25:57.823250 elapsed
+[INFO@380] started at 2021-05-28 19:57:56.651084
+[INFO@380] arguments: Namespace(logfile='/scr/logs/2113883/1060.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1060.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@381] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@441] working directory: /tmp/jetscape-rvooj9ua
+[WARNING@443] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@443] starting jetscape event 0
+[INFO@444] TRENTO_VAH started at 2021-05-28 19:57:56.714885 
+[INFO@444] running command: ./TRENTO_VAH
+[INFO@737334] TRENTO_VAH finished in 0:12:16.889814 
+[INFO@737678] Max radius of freezeout surface : 9.391950
+[INFO@737679] idf  = 0
+[INFO@737690] Run iS3D and smash
+[INFO@737691] SAMPLER_AFTERBURNER started at 2021-05-28 20:10:13.961729 
+[INFO@737691] running command: ./SAMPLER_AFTERBURNER
+[INFO@1701359] SAMPLER_AFTERBURNER finished in 0:16:03.668586 
+[INFO@1701453] 147485 particles in 26 oversamples
+[INFO@1701826] All Oversampling and Afterburners finished in 0:16:04.025616 
+[INFO@1701826] Fraction of time spent in trento, fs, hydro       : 0.433231 
+[INFO@1701826] Fraction of time spent in sampling, afterburning  : 0.566769 
+[INFO@1701826] computing observables for delta_f = 1
+[INFO@1701830] charged and abs_eta < 0.5 : 18897.0
+[INFO@1701944] Reading hadron list and computing observables finished in 0:00:00.117114 
+[INFO@1701944] event 0 completed successfully
+[INFO@1701954] finished at 2021-05-28 20:26:18.225242, 0:28:21.574158 elapsed
+[INFO@379] started at 2021-05-28 19:56:48.625479
+[INFO@380] arguments: Namespace(logfile='/scr/logs/2113883/1061.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1061.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@380] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@442] working directory: /tmp/jetscape-twcj5ljf
+[WARNING@443] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@444] starting jetscape event 0
+[INFO@444] TRENTO_VAH started at 2021-05-28 19:56:48.690222 
+[INFO@444] running command: ./TRENTO_VAH
+[INFO@460263] TRENTO_VAH finished in 0:07:39.818604 
+[INFO@460407] Max radius of freezeout surface : 7.069160
+[INFO@460408] idf  = 0
+[INFO@460419] Run iS3D and smash
+[INFO@460419] SAMPLER_AFTERBURNER started at 2021-05-28 20:04:28.665301 
+[INFO@460419] running command: ./SAMPLER_AFTERBURNER
+[INFO@1046061] SAMPLER_AFTERBURNER finished in 0:09:45.641570 
+[INFO@1046153] 145243 particles in 133 oversamples
+[INFO@1046518] All Oversampling and Afterburners finished in 0:09:45.798045 
+[INFO@1046518] Fraction of time spent in trento, fs, hydro       : 0.439758 
+[INFO@1046518] Fraction of time spent in sampling, afterburning  : 0.560242 
+[INFO@1046518] computing observables for delta_f = 1
+[INFO@1046521] charged and abs_eta < 0.5 : 18840.0
+[INFO@1046629] Reading hadron list and computing observables finished in 0:00:00.110777 
+[INFO@1046630] event 0 completed successfully
+[INFO@1046639] finished at 2021-05-28 20:14:14.884730, 0:17:26.259251 elapsed
+[INFO@381] started at 2021-05-28 19:56:52.687557
+[INFO@381] arguments: Namespace(logfile='/scr/logs/2113883/1062.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1062.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@382] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@445] working directory: /tmp/jetscape-jnzfrlg5
+[WARNING@447] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@447] starting jetscape event 0
+[INFO@447] TRENTO_VAH started at 2021-05-28 19:56:52.754029 
+[INFO@447] running command: ./TRENTO_VAH
+[INFO@229633] TRENTO_VAH finished in 0:03:49.185737 
+[INFO@229689] Max radius of freezeout surface : 7.100790
+[INFO@229689] idf  = 0
+[INFO@229701] Run iS3D and smash
+[INFO@229701] SAMPLER_AFTERBURNER started at 2021-05-28 20:00:42.008209 
+[INFO@229702] running command: ./SAMPLER_AFTERBURNER
+[INFO@560127] SAMPLER_AFTERBURNER finished in 0:05:30.425497 
+[INFO@560203] 113776 particles in 1000 oversamples
+[INFO@560492] All Oversampling and Afterburners finished in 0:05:30.493940 
+[INFO@560492] Fraction of time spent in trento, fs, hydro       : 0.409494 
+[INFO@560493] Fraction of time spent in sampling, afterburning  : 0.590506 
+[INFO@560493] computing observables for delta_f = 1
+[INFO@560495] charged and abs_eta < 0.5 : 13908.0
+[INFO@560581] Reading hadron list and computing observables finished in 0:00:00.088256 
+[INFO@560582] event 0 completed successfully
+[INFO@560590] finished at 2021-05-28 20:06:12.896630, 0:09:20.209073 elapsed
+[INFO@375] started at 2021-05-28 19:57:00.538154
+[INFO@375] arguments: Namespace(logfile='/scr/logs/2113883/1063.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1063.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@375] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@435] working directory: /tmp/jetscape-f0_2flll
+[WARNING@436] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@436] starting jetscape event 0
+[INFO@437] TRENTO_VAH started at 2021-05-28 19:57:00.600224 
+[INFO@437] running command: ./TRENTO_VAH
+[INFO@263950] TRENTO_VAH finished in 0:04:23.513614 
+[INFO@264012] Max radius of freezeout surface : 5.055780
+[INFO@264012] idf  = 0
+[INFO@264023] Run iS3D and smash
+[INFO@264023] SAMPLER_AFTERBURNER started at 2021-05-28 20:01:24.186735 
+[INFO@264023] running command: ./SAMPLER_AFTERBURNER
+[INFO@675725] SAMPLER_AFTERBURNER finished in 0:06:51.702063 
+[INFO@675815] 148229 particles in 788 oversamples
+[INFO@676192] All Oversampling and Afterburners finished in 0:06:51.774960 
+[INFO@676192] Fraction of time spent in trento, fs, hydro       : 0.390224 
+[INFO@676193] Fraction of time spent in sampling, afterburning  : 0.609776 
+[INFO@676193] computing observables for delta_f = 1
+[INFO@676196] charged and abs_eta < 0.5 : 18762.0
+[INFO@676305] Reading hadron list and computing observables finished in 0:00:00.111413 
+[INFO@676305] event 0 completed successfully
+[INFO@676313] finished at 2021-05-28 20:08:16.476977, 0:11:15.938823 elapsed
+[INFO@385] started at 2021-05-28 19:57:01.840646
+[INFO@386] arguments: Namespace(logfile='/scr/logs/2113883/1064.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1064.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@386] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@448] working directory: /tmp/jetscape-qfwjd7se
+[WARNING@450] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@450] starting jetscape event 0
+[INFO@450] TRENTO_VAH started at 2021-05-28 19:57:01.905818 
+[INFO@450] running command: ./TRENTO_VAH
+[INFO@820704] TRENTO_VAH finished in 0:13:40.253842 
+[INFO@821140] Max radius of freezeout surface : 10.909800
+[INFO@821140] idf  = 0
+[INFO@821152] Run iS3D and smash
+[INFO@821152] SAMPLER_AFTERBURNER started at 2021-05-28 20:10:42.607265 
+[INFO@821152] running command: ./SAMPLER_AFTERBURNER
+[INFO@1965448] SAMPLER_AFTERBURNER finished in 0:19:04.295868 
+[INFO@1965541] 146659 particles in 19 oversamples
+[INFO@1965911] All Oversampling and Afterburners finished in 0:19:04.743473 
+[INFO@1965912] Fraction of time spent in trento, fs, hydro       : 0.417433 
+[INFO@1965912] Fraction of time spent in sampling, afterburning  : 0.582567 
+[INFO@1965912] computing observables for delta_f = 1
+[INFO@1965915] charged and abs_eta < 0.5 : 19422.0
+[INFO@1966027] Reading hadron list and computing observables finished in 0:00:00.114470 
+[INFO@1966027] event 0 completed successfully
+[INFO@1966038] finished at 2021-05-28 20:29:47.493360, 0:32:45.652714 elapsed
+[INFO@389] started at 2021-05-28 19:57:17.293143
+[INFO@389] arguments: Namespace(logfile='/scr/logs/2113883/1065.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1065.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@390] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@452] working directory: /tmp/jetscape-ihutd81n
+[WARNING@453] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@454] starting jetscape event 0
+[INFO@454] TRENTO_VAH started at 2021-05-28 19:57:17.358539 
+[INFO@454] running command: ./TRENTO_VAH
+[INFO@589782] TRENTO_VAH finished in 0:09:49.327996 
+[INFO@590020] Max radius of freezeout surface : 8.296320
+[INFO@590020] idf  = 0
+[INFO@590031] Run iS3D and smash
+[INFO@590032] SAMPLER_AFTERBURNER started at 2021-05-28 20:07:06.936085 
+[INFO@590032] running command: ./SAMPLER_AFTERBURNER
+[INFO@1351466] SAMPLER_AFTERBURNER finished in 0:12:41.434349 
+[INFO@1351559] 146888 particles in 50 oversamples
+[INFO@1351931] All Oversampling and Afterburners finished in 0:12:41.683899 
+[INFO@1351931] Fraction of time spent in trento, fs, hydro       : 0.436212 
+[INFO@1351932] Fraction of time spent in sampling, afterburning  : 0.563788 
+[INFO@1351932] computing observables for delta_f = 1
+[INFO@1351935] charged and abs_eta < 0.5 : 19278.0
+[INFO@1352046] Reading hadron list and computing observables finished in 0:00:00.113859 
+[INFO@1352046] event 0 completed successfully
+[INFO@1352056] finished at 2021-05-28 20:19:48.960054, 0:22:31.666911 elapsed
+[INFO@387] started at 2021-05-28 19:56:47.380108
+[INFO@388] arguments: Namespace(logfile='/scr/logs/2113883/1066.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1066.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@388] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@451] working directory: /tmp/jetscape-a8szfcg4
+[WARNING@453] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@453] starting jetscape event 0
+[INFO@453] TRENTO_VAH started at 2021-05-28 19:56:47.445899 
+[INFO@453] running command: ./TRENTO_VAH
+[INFO@848216] TRENTO_VAH finished in 0:14:07.762572 
+[INFO@848677] Max radius of freezeout surface : 11.357700
+[INFO@848677] idf  = 0
+[INFO@848689] Run iS3D and smash
+[INFO@848689] SAMPLER_AFTERBURNER started at 2021-05-28 20:10:55.681824 
+[INFO@848689] running command: ./SAMPLER_AFTERBURNER
+[INFO@2031182] SAMPLER_AFTERBURNER finished in 0:19:42.492484 
+[INFO@2031274] 145481 particles in 17 oversamples
+[INFO@2031644] All Oversampling and Afterburners finished in 0:19:42.965837 
+[INFO@2031645] Fraction of time spent in trento, fs, hydro       : 0.417467 
+[INFO@2031645] Fraction of time spent in sampling, afterburning  : 0.582533 
+[INFO@2031645] computing observables for delta_f = 1
+[INFO@2031649] charged and abs_eta < 0.5 : 19077.0
+[INFO@2031759] Reading hadron list and computing observables finished in 0:00:00.113563 
+[INFO@2031759] event 0 completed successfully
+[INFO@2031770] finished at 2021-05-28 20:30:38.762628, 0:33:51.382520 elapsed
+[INFO@382] started at 2021-05-28 19:59:15.967754
+[INFO@383] arguments: Namespace(logfile='/scr/logs/2113883/1067.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1067.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@383] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@445] working directory: /tmp/jetscape-zly90sq4
+[WARNING@446] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@447] starting jetscape event 0
+[INFO@447] TRENTO_VAH started at 2021-05-28 19:59:16.032247 
+[INFO@447] running command: ./TRENTO_VAH
+[INFO@179320] TRENTO_VAH finished in 0:02:58.872982 
+[INFO@179354] Max radius of freezeout surface : 5.989870
+[INFO@179354] idf  = 0
+[INFO@179365] Run iS3D and smash
+[INFO@179365] SAMPLER_AFTERBURNER started at 2021-05-28 20:02:14.950278 
+[INFO@179365] running command: ./SAMPLER_AFTERBURNER
+[INFO@296861] SAMPLER_AFTERBURNER finished in 0:01:57.496222 
+[INFO@296891] 29705 particles in 1000 oversamples
+[INFO@296969] All Oversampling and Afterburners finished in 0:01:57.541271 
+[INFO@296969] Fraction of time spent in trento, fs, hydro       : 0.603456 
+[INFO@296970] Fraction of time spent in sampling, afterburning  : 0.396544 
+[INFO@296970] computing observables for delta_f = 1
+[INFO@296971] charged and abs_eta < 0.5 : 3438.0
+[INFO@296996] Reading hadron list and computing observables finished in 0:00:00.026001 
+[INFO@296996] event 0 completed successfully
+[INFO@297001] finished at 2021-05-28 20:04:12.586347, 0:04:56.618593 elapsed
+[INFO@383] started at 2021-05-28 19:57:13.100968
+[INFO@384] arguments: Namespace(logfile='/scr/logs/2113883/1068.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1068.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@384] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@449] working directory: /tmp/jetscape-1rg_b3ai
+[WARNING@451] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@451] starting jetscape event 0
+[INFO@452] TRENTO_VAH started at 2021-05-28 19:57:13.169510 
+[INFO@452] running command: ./TRENTO_VAH
+[INFO@851274] TRENTO_VAH finished in 0:14:10.822463 
+[INFO@851746] Max radius of freezeout surface : 10.793900
+[INFO@851746] idf  = 0
+[INFO@851758] Run iS3D and smash
+[INFO@851758] SAMPLER_AFTERBURNER started at 2021-05-28 20:11:24.475839 
+[INFO@851758] running command: ./SAMPLER_AFTERBURNER
+[INFO@2062763] SAMPLER_AFTERBURNER finished in 0:20:11.005117 
+[INFO@2062857] 147184 particles in 17 oversamples
+[INFO@2063233] All Oversampling and Afterburners finished in 0:20:11.488983 
+[INFO@2063233] Fraction of time spent in trento, fs, hydro       : 0.412558 
+[INFO@2063234] Fraction of time spent in sampling, afterburning  : 0.587442 
+[INFO@2063234] computing observables for delta_f = 1
+[INFO@2063237] charged and abs_eta < 0.5 : 19104.0
+[INFO@2063347] Reading hadron list and computing observables finished in 0:00:00.113407 
+[INFO@2063348] event 0 completed successfully
+[INFO@2063359] finished at 2021-05-28 20:31:36.076345, 0:34:22.975377 elapsed
+[INFO@376] started at 2021-05-28 19:57:13.830518
+[INFO@376] arguments: Namespace(logfile='/scr/logs/2113883/1069.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1069.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@377] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@437] working directory: /tmp/jetscape-zevmd2pn
+[WARNING@439] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@439] starting jetscape event 0
+[INFO@439] TRENTO_VAH started at 2021-05-28 19:57:13.894016 
+[INFO@439] running command: ./TRENTO_VAH
+[INFO@563682] TRENTO_VAH finished in 0:09:23.242639 
+[INFO@563906] Max radius of freezeout surface : 8.179100
+[INFO@563906] idf  = 0
+[INFO@563917] Run iS3D and smash
+[INFO@563917] SAMPLER_AFTERBURNER started at 2021-05-28 20:06:37.372108 
+[INFO@563917] running command: ./SAMPLER_AFTERBURNER
+[INFO@1300669] SAMPLER_AFTERBURNER finished in 0:12:16.751678 
+[INFO@1300759] 145214 particles in 64 oversamples
+[INFO@1301133] All Oversampling and Afterburners finished in 0:12:16.987131 
+[INFO@1301134] Fraction of time spent in trento, fs, hydro       : 0.433187 
+[INFO@1301134] Fraction of time spent in sampling, afterburning  : 0.566813 
+[INFO@1301134] computing observables for delta_f = 1
+[INFO@1301137] charged and abs_eta < 0.5 : 18778.0
+[INFO@1301246] Reading hadron list and computing observables finished in 0:00:00.111421 
+[INFO@1301246] event 0 completed successfully
+[INFO@1301255] finished at 2021-05-28 20:18:54.710000, 0:21:40.879482 elapsed
+[INFO@371] started at 2021-05-28 19:35:22.410711
+[INFO@371] arguments: Namespace(logfile='/scr/logs/2113883/106.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/106.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@372] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@430] working directory: /tmp/jetscape-2igkdc8a
+[WARNING@431] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@431] starting jetscape event 0
+[INFO@432] TRENTO_VAH started at 2021-05-28 19:35:22.471518 
+[INFO@432] running command: ./TRENTO_VAH
+[INFO@177513] TRENTO_VAH finished in 0:02:57.081227 
+[INFO@177548] Max radius of freezeout surface : 3.942670
+[INFO@177548] idf  = 0
+[INFO@177559] Run iS3D and smash
+[INFO@177559] SAMPLER_AFTERBURNER started at 2021-05-28 19:38:19.599135 
+[INFO@177559] running command: ./SAMPLER_AFTERBURNER
+[INFO@332710] SAMPLER_AFTERBURNER finished in 0:02:35.150730 
+[INFO@332743] 31769 particles in 1000 oversamples
+[INFO@332823] All Oversampling and Afterburners finished in 0:02:35.197120 
+[INFO@332823] Fraction of time spent in trento, fs, hydro       : 0.532930 
+[INFO@332824] Fraction of time spent in sampling, afterburning  : 0.467070 
+[INFO@332824] computing observables for delta_f = 1
+[INFO@332825] charged and abs_eta < 0.5 : 3785.0
+[INFO@332852] Reading hadron list and computing observables finished in 0:00:00.027616 
+[INFO@332852] event 0 completed successfully
+[INFO@332857] finished at 2021-05-28 19:40:54.897048, 0:05:32.486337 elapsed
+[INFO@376] started at 2021-05-28 19:57:29.964700
+[INFO@376] arguments: Namespace(logfile='/scr/logs/2113883/1070.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1070.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@377] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@440] working directory: /tmp/jetscape-4k6q8k22
+[WARNING@441] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@441] starting jetscape event 0
+[INFO@442] TRENTO_VAH started at 2021-05-28 19:57:30.030702 
+[INFO@442] running command: ./TRENTO_VAH
+[INFO@863609] TRENTO_VAH finished in 0:14:23.166766 
+[INFO@864085] Max radius of freezeout surface : 11.246300
+[INFO@864085] idf  = 0
+[INFO@864097] Run iS3D and smash
+[INFO@864097] SAMPLER_AFTERBURNER started at 2021-05-28 20:11:53.685761 
+[INFO@864097] running command: ./SAMPLER_AFTERBURNER
+[INFO@2077660] SAMPLER_AFTERBURNER finished in 0:20:13.563262 
+[INFO@2077756] 152306 particles in 16 oversamples
+[INFO@2078150] All Oversampling and Afterburners finished in 0:20:14.051555 
+[INFO@2078150] Fraction of time spent in trento, fs, hydro       : 0.415540 
+[INFO@2078151] Fraction of time spent in sampling, afterburning  : 0.584460 
+[INFO@2078151] computing observables for delta_f = 1
+[INFO@2078154] charged and abs_eta < 0.5 : 20180.0
+[INFO@2078268] Reading hadron list and computing observables finished in 0:00:00.117175 
+[INFO@2078268] event 0 completed successfully
+[INFO@2078280] finished at 2021-05-28 20:32:07.869446, 0:34:37.904746 elapsed
+[INFO@381] started at 2021-05-28 19:57:07.039555
+[INFO@381] arguments: Namespace(logfile='/scr/logs/2113883/1071.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1071.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@381] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@444] working directory: /tmp/jetscape-r_5ixrn8
+[WARNING@445] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@445] starting jetscape event 0
+[INFO@445] TRENTO_VAH started at 2021-05-28 19:57:07.104512 
+[INFO@446] running command: ./TRENTO_VAH
+[INFO@333315] TRENTO_VAH finished in 0:05:32.869722 
+[INFO@333416] Max radius of freezeout surface : 6.941690
+[INFO@333416] idf  = 0
+[INFO@333429] Run iS3D and smash
+[INFO@333429] SAMPLER_AFTERBURNER started at 2021-05-28 20:02:40.087820 
+[INFO@333429] running command: ./SAMPLER_AFTERBURNER
+[INFO@833073] SAMPLER_AFTERBURNER finished in 0:08:19.644655 
+[INFO@833165] 148994 particles in 380 oversamples
+[INFO@833547] All Oversampling and Afterburners finished in 0:08:19.758241 
+[INFO@833547] Fraction of time spent in trento, fs, hydro       : 0.399782 
+[INFO@833547] Fraction of time spent in sampling, afterburning  : 0.600218 
+[INFO@833547] computing observables for delta_f = 1
+[INFO@833550] charged and abs_eta < 0.5 : 18453.0
+[INFO@833659] Reading hadron list and computing observables finished in 0:00:00.111300 
+[INFO@833660] event 0 completed successfully
+[INFO@833668] finished at 2021-05-28 20:11:00.327018, 0:13:53.287463 elapsed
+[INFO@376] started at 2021-05-28 19:58:06.710971
+[INFO@377] arguments: Namespace(logfile='/scr/logs/2113883/1072.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1072.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@377] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@439] working directory: /tmp/jetscape-emn4h6kc
+[WARNING@441] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@441] starting jetscape event 0
+[INFO@441] TRENTO_VAH started at 2021-05-28 19:58:06.775977 
+[INFO@442] running command: ./TRENTO_VAH
+[INFO@144369] TRENTO_VAH finished in 0:02:23.927624 
+[INFO@144398] Max radius of freezeout surface : 2.895450
+[INFO@144398] idf  = 0
+[INFO@144409] Run iS3D and smash
+[INFO@144409] SAMPLER_AFTERBURNER started at 2021-05-28 20:00:30.743592 
+[INFO@144409] running command: ./SAMPLER_AFTERBURNER
+[INFO@242064] SAMPLER_AFTERBURNER finished in 0:01:37.654725 
+[INFO@242087] 11837 particles in 1000 oversamples
+[INFO@242117] All Oversampling and Afterburners finished in 0:01:37.694716 
+[INFO@242118] Fraction of time spent in trento, fs, hydro       : 0.595672 
+[INFO@242118] Fraction of time spent in sampling, afterburning  : 0.404328 
+[INFO@242118] computing observables for delta_f = 1
+[INFO@242119] charged and abs_eta < 0.5 : 1411.0
+[INFO@242132] Reading hadron list and computing observables finished in 0:00:00.013526 
+[INFO@242132] event 0 completed successfully
+[INFO@242137] finished at 2021-05-28 20:02:08.471142, 0:04:01.760171 elapsed
+[INFO@377] started at 2021-05-28 19:57:10.945050
+[INFO@378] arguments: Namespace(logfile='/scr/logs/2113883/1073.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1073.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@378] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@440] working directory: /tmp/jetscape-h9bn42m8
+[WARNING@441] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@441] starting jetscape event 0
+[INFO@442] TRENTO_VAH started at 2021-05-28 19:57:11.009645 
+[INFO@442] running command: ./TRENTO_VAH
+[INFO@63022] TRENTO_VAH finished in 0:01:02.580438 
+[INFO@63039] Max radius of freezeout surface : 2.388590
+[INFO@63039] idf  = 0
+[INFO@63048] Run iS3D and smash
+[INFO@63049] SAMPLER_AFTERBURNER started at 2021-05-28 19:58:13.616592 
+[INFO@63049] running command: ./SAMPLER_AFTERBURNER
+[INFO@88268] SAMPLER_AFTERBURNER finished in 0:00:25.219527 
+[INFO@88284] 495 particles in 1000 oversamples
+[INFO@88285] All Oversampling and Afterburners finished in 0:00:25.246036 
+[INFO@88286] Fraction of time spent in trento, fs, hydro       : 0.712546 
+[INFO@88286] Fraction of time spent in sampling, afterburning  : 0.287454 
+[INFO@88286] computing observables for delta_f = 1
+[INFO@88286] charged and abs_eta < 0.5 : 57.0
+[INFO@88291] Reading hadron list and computing observables finished in 0:00:00.004727 
+[INFO@88291] event 0 completed successfully
+[INFO@88295] finished at 2021-05-28 19:58:38.863160, 0:01:27.918110 elapsed
+[INFO@385] started at 2021-05-28 19:57:25.648629
+[INFO@386] arguments: Namespace(logfile='/scr/logs/2113883/1074.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1074.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@386] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@447] working directory: /tmp/jetscape-j9iu2n5b
+[WARNING@449] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@449] starting jetscape event 0
+[INFO@450] TRENTO_VAH started at 2021-05-28 19:57:25.713184 
+[INFO@450] running command: ./TRENTO_VAH
+[INFO@1050282] TRENTO_VAH finished in 0:17:29.831808 
+[INFO@1050899] Max radius of freezeout surface : 12.401400
+[INFO@1050899] idf  = 0
+[INFO@1050911] Run iS3D and smash
+[INFO@1050911] SAMPLER_AFTERBURNER started at 2021-05-28 20:14:56.174489 
+[INFO@1050911] running command: ./SAMPLER_AFTERBURNER
+[INFO@2502477] SAMPLER_AFTERBURNER finished in 0:24:11.565569 
+[INFO@2502575] 153584 particles in 13 oversamples
+[INFO@2502972] All Oversampling and Afterburners finished in 0:24:12.195066 
+[INFO@2502972] Fraction of time spent in trento, fs, hydro       : 0.419593 
+[INFO@2502973] Fraction of time spent in sampling, afterburning  : 0.580407 
+[INFO@2502973] computing observables for delta_f = 1
+[INFO@2502976] charged and abs_eta < 0.5 : 20453.0
+[INFO@2503095] Reading hadron list and computing observables finished in 0:00:00.122220 
+[INFO@2503096] event 0 completed successfully
+[INFO@2503108] finished at 2021-05-28 20:39:08.371408, 0:41:42.722779 elapsed
+[INFO@382] started at 2021-05-28 19:57:25.971863
+[INFO@383] arguments: Namespace(logfile='/scr/logs/2113883/1075.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1075.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@383] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@446] working directory: /tmp/jetscape-pe546o37
+[WARNING@447] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@448] starting jetscape event 0
+[INFO@448] TRENTO_VAH started at 2021-05-28 19:57:26.037805 
+[INFO@448] running command: ./TRENTO_VAH
+[INFO@143057] TRENTO_VAH finished in 0:02:22.608711 
+[INFO@143084] Max radius of freezeout surface : 5.592850
+[INFO@143084] idf  = 0
+[INFO@143094] Run iS3D and smash
+[INFO@143094] SAMPLER_AFTERBURNER started at 2021-05-28 19:59:48.684007 
+[INFO@143094] running command: ./SAMPLER_AFTERBURNER
+[INFO@260585] SAMPLER_AFTERBURNER finished in 0:01:57.490626 
+[INFO@260607] 12080 particles in 1000 oversamples
+[INFO@260639] All Oversampling and Afterburners finished in 0:01:57.528117 
+[INFO@260639] Fraction of time spent in trento, fs, hydro       : 0.548207 
+[INFO@260640] Fraction of time spent in sampling, afterburning  : 0.451793 
+[INFO@260640] computing observables for delta_f = 1
+[INFO@260640] charged and abs_eta < 0.5 : 1510.0
+[INFO@260654] Reading hadron list and computing observables finished in 0:00:00.013880 
+[INFO@260654] event 0 completed successfully
+[INFO@260659] finished at 2021-05-28 20:01:46.248429, 0:04:20.276566 elapsed
+[INFO@376] started at 2021-05-28 19:57:14.620497
+[INFO@377] arguments: Namespace(logfile='/scr/logs/2113883/1076.log', loglevel='info', nevents=1, rankfmt=None, rankvar=None, results='/scr/results/2113883/1076.dat', startdir=None, tablesdir='/home/ac.liyanage/vah_run_events/MAP', tmpdir='/tmp')
+[INFO@377] starting dir: /home/ac.liyanage/vah_run_events/MAP
+[INFO@440] working directory: /tmp/jetscape-g_yhel5f
+[WARNING@442] /home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/run-events-MAP-ALICE-VAH-osc.py:366: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  results = np.empty((), dtype=result_dtype)
+
+[INFO@442] starting jetscape event 0
+[INFO@442] TRENTO_VAH started at 2021-05-28 19:57:14.686407 
+[INFO@442] running command: ./TRENTO_VAH
+[INFO@346519] TRENTO_VAH finished in 0:05:46.076908 
+[INFO@346613] Max radius of freezeout surface : 6.339380
+[INFO@346613] idf  = 0
+[INFO@346624] Run iS3D and smash
+[INFO@346624] SAMPLER_AFTERBURNER started at 2021-05-28 20:03:00.868060 
+[INFO@346624] running command: ./SAMPLER_AFTERBURNER
+[INFO@837155] SAMPLER_AFTERBURNER finished in 0:08:10.530670 
+[INFO@837245] 146784 particles in 353 oversamples
+[INFO@837622] All Oversampling and Afterburners finished in 0:08:10.635415 
+[INFO@837623] Fraction of time spent in trento, fs, hydro       : 0.413615 
+[INFO@837623] Fraction of time spent in sampling, afterburning  : 0.586385 
+[INFO@837623] computing observables for delta_f = 1
+[INFO@837626] charged and abs_eta < 0.5 : 18496.0
+[INFO@837735] Reading hadron list and computing observables finished in 0:00:00.111378 
+[INFO@837735] event 0 completed successfully
+[INFO@837744] finished at 2021-05-28 20:11:11.987817, 0:13:57.367320 elapsed

@@ -1,12 +1,14 @@
 #!/bin/bash
 cd /lcrc/globalscratch/dan/logs/$1
 all_files=$(ls)
+
+#echo "$all_files"
 for num in {1..5000}
 do
-if ! grep -q $num all_files;
+if ! ls | grep -x $num.log;
 then
 	echo "$num is not there"
-	echo $num>thenos_events.txt
+	echo $num>thanos_events.txt
 fi
 done
-mv thenos_events.txt ~/vah_run_events
+mv thanos_events.txt ~/vah_run_events
