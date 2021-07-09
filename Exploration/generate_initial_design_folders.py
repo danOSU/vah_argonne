@@ -46,7 +46,7 @@ def make_new_script(design_point):
 
 #Make a folder for each design point with corresponding input file
 
-for i in range(0,5):
+for i in range(0,500):
     new_file = make_new_script(i)
     os.makedirs(f"design/{i}/parameters", exist_ok=True)
     os.chdir(f"design/{i}")
