@@ -9,7 +9,7 @@ Follow these steps to get the singularity image
 >module load singularity
 2. Get the container image and make a sandbox folder with write privileges in the home directory
 >cd ~/ \
->singularity build --sandbox jetscape_vah docker://dananjaya92/jetscape-bulk:v3 
+>singularity build --sandbox jetscape_vah docker://dananjaya92/jetscape-bulk:v3
 
 
 Now you have a folder named _jetscape_ which has the container files. Changes you make to this folder will apear in any spawned jetscape containers.
@@ -24,9 +24,9 @@ For more information on building containers with a sanbox please refer to *[sing
 parameters are set to Maximum a Posteriori(MAP) values found in this *[paper](https://arxiv.org/abs/2011.01430)*
 > sh submit.sh  "My first simulation run"  MAP
 
-With each submission a _history.txt_ file is updated with the Job_ID and with the comment made at the submision. 
-To run the simulation with a different set of input parameters you need to generate and put the relevent input files inside a new folder in _MAP_. 
-Please take a look at the _MAP_ input files and the python script that generate these input files by going to _MAP_ to understand what input files are needed 
+With each submission a _history.txt_ file is updated with the Job_ID and with the comment made at the submision.
+To run the simulation with a different set of input parameters you need to generate and put the relevent input files inside a new folder in _MAP_.
+Please take a look at the _MAP_ input files and the python script that generate these input files by going to _MAP_ to understand what input files are needed
 to run an event.
 If you put new set of input files in a directory _new_design_0_ events with this input files can be run by following command.
 >sh submit.sh "New set of model parameter values" new_design_0
@@ -40,5 +40,29 @@ simulated events can be found in _MAP_ after you run >sh check_cat_move_results.
 
 >sh check_cat_move_results.sh JOB_ID MAP
 Results  from each individual run is concatenated and being put in the same folder that had the input files for
-the simulation runs. For the example run it would be in _MAP_. In the same folder there is _JOB_ID.log_ file which has the printed standard output of the job and 
-several _.txt_ files with more information about the succesful completion/ failure of each individual event. 
+the simulation runs. For the example run it would be in _MAP_. In the same folder there is _JOB_ID.log_ file which has the printed standard output of the job and
+several _.txt_ files with more information about the succesful completion/ failure of each individual event.
+
+
+## Run Simulations with Different Design Points
+
+* Make sure that Bebop has the most recent version of this repo
+* Within ``vah_argonne``, go to ``/Exploration`` to create a directory for each design point
+* Run
+  > python generate_initial_design_folders.py
+
+* A directory for each design point (for example see ``design_20210627.txt``) is generated in ``/Exploration/design``
+
+* Move the design folder from ``/Exploration/design`` to ``/design``
+* In ``submit_design.sh``, change the directory names with your own user account
+* Make sure that ``run_events_ALICE_VAH.py`` exists under ``jetscape_vah/home/jetscape-user/JETSCAPE-COMP/sims_scripts/submit/``
+
+* Make sure that ``event_design.sh`` exists under ``vah_argonne``
+
+* Run
+  > sbatch submit_all_design.sh
+
+  * Note: The flow of scripts running when the jobs are submitted is as follows:
+  * sumbit_all_design.sh - submit.sh - submit_design.sh - event-design.sh
+
+* Once the jobs are done, the scripts ``check_cat_move_results.sh`` and ``find_events_did_not_run.sh`` will be running automatically to do some postprocessing checks. Make sure that the directories in those .sh files are updated with your own account name. 
