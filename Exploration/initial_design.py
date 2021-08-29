@@ -20,7 +20,7 @@ sns.pairplot(df_design)
 xlimits = np.array([[10, 30],
                     [-0.7, 0.7],
                     [0.5, 1.5],
-                    [0, 1.7**3],
+                    [0, 1.7],
                     [0.3, 2],
                     [0.135, 0.165],
                     [0.13, 0.3],
@@ -32,7 +32,7 @@ xlimits = np.array([[10, 30],
                     [0.025, 0.15],
                     [-0.8, 0.8],
                     [0.3, 1],
-                    [0.05, 0.5]])
+                    [0.05, 0.05]])
 
 # obtain sampling object
 sampling = LHS(xlimits=xlimits)
