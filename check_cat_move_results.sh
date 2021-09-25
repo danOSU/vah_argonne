@@ -1,5 +1,11 @@
 #!/usr/bin/bash
 export SCRATCH="/lcrc/globalscratch/dan"
+rm $2/$1.interrupt.txt
+rm $2/$1.failed.txt
+rm $2/$1.success.txt
+rm $2/$1.results.dat
+rm $2/$1.log
+rm $2/$1.crashed.txt
 for f in  $SCRATCH/logs/$1/[0-9]*.log
 do
 	if grep -q "crash" $f;
@@ -17,14 +23,13 @@ do
 		event=$(echo $folder| cut -d '.' -f 1)
 		echo "catting $event.dat"
     		rm -rf $SCRATCH/results/$1/results.dat
-    		cat $SCRATCH/results/$1/$event.dat >> results.dat
-#	else
-#		echo "something went teribely wrong : $event"
-#		echo "$f" >> $2/$1.unknown.txt
+    		cat $SCRATCH/results/$1/$event.dat >> $2/$1.results.dat
+	elif grep -q "interrupt" $f;
+	then
+		echo "Event was interrupted : $event"
+		echo "$f" >> $2/$1.interrupt.txt
 	fi
-	cat $f >> log
+	cat $f >> $2/$1.log
 done
 
-mv results.dat $2/$1.results.dat
-mv log $2/$1.log
 echo "done catting and moving the results to $2 folder"

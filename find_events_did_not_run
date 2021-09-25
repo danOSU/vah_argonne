@@ -1,14 +1,14 @@
 #!/bin/bash
 cd /lcrc/globalscratch/dan/logs/$1
-all_files=$(ls)
-
+#all_files=$(ls)
+rm $2/$1.thanos_events.txt
 #echo "$all_files"
-for num in {1..10}
+
+for num in {1..200}
 do
 if ! ls | grep -x $num.log;
 then
-	echo "$num is not there"
-	echo $num>>thanos_events.txt
+	echo "$(tput setaf 1) $num is not there $(tput init)"
+	echo $num>> $2/$1.thanos_events.txt
 fi
 done
-mv thanos_events.txt ~/vah_run_events/$2
